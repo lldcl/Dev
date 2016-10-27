@@ -1,0 +1,79 @@
+,0
+0,CH5O+ (methanol;H3O+) (ppb)/MOS1c_Av
+1,0.709767998812
+2,CH3CN.H+ (acetonitrile;H3O+) (ppb)/MOS1c_Av
+3,0.455972418116
+4,C3H7O+ (acetone;H3O+) (ppb)/MOS1c_Av
+5,0.623777242266
+6,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/MOS1c_Av
+7,0.390163293884
+8,C6H6.H+ (benzene;H3O+) (ppb)/MOS1c_Av
+9,0.496122460201
+10,C8H10.H+ (m-xylene;H3O+) (ppb)/MOS1c_Av
+11,0.423515699692
+12,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/MOS1c_Av"
+13,0.454724259792
+14,H3O+.C8H18 (octane;H3O+) (ppb)/MOS1c_Av
+15,0.428197429099
+16,C9H20.H3O+ (nonane;H3O+) (ppb)/MOS1c_Av
+17,0.449075640495
+18,H3O+.C10H22 (decane;H3O+) (ppb)/MOS1c_Av
+19,0.469299648699
+20,CH3O+ (formaldehyde;H3O+) (ppb)/MOS1c_Av
+21,0.0179135011987
+22,NO+.C3H6O (acetone;NO+) (ppb)/MOS1c_Av
+23,0.586523110199
+24,C5H8+ (isoprene;NO+) (ppb)/MOS1c_Av
+25,0.493921159196
+26,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/MOS1c_Av
+27,0.47698661343
+28,NO+.C4H8O (butanone;NO+) (ppb)/MOS1c_Av
+29,0.442281524043
+30,C6H6+ (benzene;NO+) (ppb)/MOS1c_Av
+31,0.408918021461
+32,NO.C6H6+ (benzene;NO+) (ppb)/MOS1c_Av
+33,0.422525709596
+34,C7H8+ (toluene;NO+) (ppb)/MOS1c_Av
+35,0.325151825901
+36,C8H10+ (m-xylene;NO+) (ppb)/MOS1c_Av
+37,0.22966864556
+38,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/MOS1c_Av"
+39,0.41071736314
+40,"C4H6+ (1,3-butadiene;NO+) (ppb)/MOS1c_Av"
+41,0.157614084634
+42,C8H17+ (octane;NO+) (ppb)/MOS1c_Av
+43,0.443053764054
+44,C10H21+ (decane;NO+) (ppb)/MOS1c_Av
+45,0.497800477121
+46,C2H5O+ (ethanol;NO+) (ppb)/MOS1c_Av
+47,0.641943041412
+48,C3H6O+ (acetone;O2+) (ppb)/MOS1c_Av
+49,0.558852917444
+50,C5H7+ (isoprene;O2+) (ppb)/MOS1c_Av
+51,0.44139628025
+52,C5H8+ (isoprene;O2+) (ppb)/MOS1c_Av
+53,0.503852985288
+54,C4H8O+ (butanone;O2+) (ppb)/MOS1c_Av
+55,0.543822327777
+56,C6H6+ (benzene;O2+) (ppb)/MOS1c_Av
+57,0.47728757322
+58,C7H8+ (toluene;O2+) (ppb)/MOS1c_Av
+59,0.335524236465
+60,C7H7+ (m-xylene;O2+) (ppb)/MOS1c_Av
+61,0.433605126449
+62,C8H10+ (m-xylene;O2+) (ppb)/MOS1c_Av
+63,0.374566782278
+64,"C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)/MOS1c_Av"
+65,0.408171829494
+66,"C3H3+ (1,3-butadiene;O2+) (ppb)/MOS1c_Av"
+67,0.493685809911
+68,"C4H6+ (1,3-butadiene;O2+) (ppb)/MOS1c_Av"
+69,0.437466264117
+70,C8H18+ (octane;O2+) (ppb)/MOS1c_Av
+71,0.41512307838
+72,C10H22+ (decane;O2+) (ppb)/MOS1c_Av
+73,0.410305520877
+74,C2H5O+ (ethanol;O2+) (ppb)/MOS1c_Av
+75,0.655502539974
+76,C2H6O+ (ethanol;O2+) (ppb)/MOS1c_Av
+77,0.510421634951
