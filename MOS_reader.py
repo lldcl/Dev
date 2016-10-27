@@ -17,7 +17,7 @@ def readin(path, f_date, cal_file, date_st, date_end):
         for i in cal_file:
         # Pick out characters 18 to 21 to correspond to the filename.
                 folder = list(i)[date_st:date_end]
-                f = '20'+"".join(folder)+'/'+i
+                f = '20'+"".join(folder)+'\\'+i
 
                 #for f in filenames:
                 print (f)
