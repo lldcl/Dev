@@ -171,7 +171,7 @@ Tmpfig.show()
     temp = v * (0.0062 * h + 0.16)
 temp.to_csv('v_out.csv')"""
 
-data_voc = voc_reader.extract_voc('D:/WACL/Data/', 'Detailed Compound Concentrations', 'Analyte vs Time') 
+data_voc = voc_reader.extract_voc('../Data/', 'Detailed Compound Concentrations', 'Analyte vs Time') 
 data_merge = data_concat.merge(data_voc, how = 'inner', on = ['Time'])
 #data_merge.to_csv('test3.csv')
 
