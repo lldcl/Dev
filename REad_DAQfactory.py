@@ -6,7 +6,7 @@ import os
 import pandas as pd
 import operator
 import matplotlib
-matplotlib.use('GTK')
+matplotlib.use('TkAgg')
 import numpy as np
 import matplotlib.pyplot as plt
 import MOS_reader as mr
