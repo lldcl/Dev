@@ -35,7 +35,7 @@ def extract_voc(path, index1, index2):
                 time = str(i)[27:33]
                 #print(date)
                 #print(time)
-                T1 = pd.to_datetime(1970, 01, 01, 00, 00, 00)
+                T1 = pd.to_datetime(1970, 1, 1, 0, 0, 0)
                 T2 = pd.to_datetime(date + time, format = '%Y%m%d%H%M%S')
                 offset = T2 - T1
                 #print(data)
