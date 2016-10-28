@@ -47,7 +47,7 @@ for i in cal_file:
     mean_resampled.TheTime = pd.to_datetime(mean_resampled.TheTime,unit='L')
 # Set the index to be the time column, when you do this it drops the index, even though it is set to False.
     mean_resampled = mean_resampled.set_index(mean_resampled.TheTime,drop=False)
-    mean_resampled = mean_resampled.resample(Time_avg, how='mean',fill_method='pad')
+    mean_resampled = mean_resampled.resample(Time_avg, how = 'mean',fill_method='pad')
 # Re-add the time index so that it can be plotted later
     Time = pd.Series(mean_resampled.index,name='Time', index=mean_resampled.index)
     mean_resampled['MOS1_Av'].to_csv('test.csv',sep='\t', index = False)
