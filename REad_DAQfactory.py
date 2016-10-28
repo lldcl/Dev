@@ -5,6 +5,8 @@ the MOS signal"""
 import os
 import pandas as pd
 import operator
+import matplotlib
+matplotlib.use('GTK')
 import numpy as np
 import matplotlib.pyplot as plt
 import MOS_reader as mr
@@ -15,7 +17,7 @@ from sklearn import linear_model
 from scipy import stats
 from matplotlib.offsetbox import AnchoredText
 
-matplotlib.use('GTK')
+
 
 # The path to where the raw files are stored
 path = "../Data/wacl_data/Raw_data_files/"
