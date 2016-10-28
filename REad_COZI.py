@@ -29,7 +29,7 @@ for i in cal_file:
 #for f in filenames:
     print (f)
 #read file into dataframe and call the dataframe data
-    data = pd.read_csv(path+f)
+    data = pd.read_csv(path + f)
 	
 
 # 	convert DAQfactory time into real time pd.datetime object - so it gives time as we would expect, not as a random number.
