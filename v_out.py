@@ -10,11 +10,11 @@ from scipy import stats
 from matplotlib.offsetbox import AnchoredText
 
 # The path to where the raw files are stored
-path = 'D:/WACL/Data/wacl_data/Raw_data_files/'
-f_date = '201610'
+path = "..\Data\wacl_data\Raw_data_files\\"
+f_date = '\\201610'
 # The name of the MOS file to be analysed
 #cal_file = ['d160902_101257']
-cal_file = os.listdir(path + f_date +'/MOS')
+cal_file = os.listdir(path + f_date +'\MOS')
 if 'desktop.ini' in cal_file:
     cal_file.remove('desktop.ini')
 
@@ -23,7 +23,7 @@ if 'desktop.ini' in cal_file:
 for i in cal_file:
 # Pick out characters 18 to 21 to correspond to the filename.
     folder = list(i)[1:5]
-    f = '20'+"".join(folder)+'/'+i
+    f = '20'+"".join(folder)+'\\'+i
 
 #for f in filenames:
     print (f)

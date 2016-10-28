@@ -11,11 +11,11 @@ from scipy import stats
 from matplotlib.offsetbox import AnchoredText
 
 # The path to where the raw files are stored
-path = 'D:/WACL/Data/'
+path = '..\Data\\'
 # The date of the data been collected
-f_date = '201608'
+f_date = '\\201608'
 # List all the files in the folder
-cal_file = os.listdir(path + f_date + '/DAQfactory_split_files/')
+cal_file = os.listdir(path + f_date + '\DAQfactory_split_files\\')
 # The name of the COZI file to be analysed
 #cal_file = ['ambientexp2_split_160801_041004', ]
 
@@ -24,7 +24,7 @@ cal_file = os.listdir(path + f_date + '/DAQfactory_split_files/')
 for i in cal_file:
 # Pick out characters 18 to 21 to correspond to the filename.
     folder = list(i)[18:22]
-    f = '20'+"".join(folder)+'/DAQfactory_split_files/'+i
+    f = '20'+"".join(folder)+'\DAQfactory_split_files\\'+i
 
 #for f in filenames:
     print (f)
