@@ -15,7 +15,7 @@ from sklearn import linear_model
 from scipy import stats
 from matplotlib.offsetbox import AnchoredText
 
- matplotlib.use('GTK')
+matplotlib.use('GTK')
 
 # The path to where the raw files are stored
 path = "../Data/wacl_data/Raw_data_files/"
