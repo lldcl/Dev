@@ -167,8 +167,8 @@ Tmpfig.show()
 
 
 """for v, h in zip(data_concat['SV_Av'], data_concat['HIH1_Av']):
-    temp = v * (0.0062 * h + 0.16)
-temp.to_csv('v_out.csv')"""
+    temp = v * (0.0062 * h +0.16)
+temp.to_csv('vout.csv')"""
 
 data_voc = voc_reader.extract_voc('../Data/', 'Detailed Compound Concentrations', 'Analyte vs Time') 
 data_merge = data_concat.merge(data_voc, how = 'inner', on = ['Time'])
