@@ -225,7 +225,7 @@ for n,c in zip(voc1,colors):
     plt.setp(ltext, fontsize='large')    # the legend text fontsize
     plt.ylabel("vocs1/MOSc*150", size=20)
     plt.xlabel("Time", size=20)	
-VOCs2fig.show()
+VOCs1fig.show()
 
 
 sub = 'vocs2'
@@ -262,7 +262,7 @@ for n,c in zip(voc3,colors):
     plt.setp(ltext, fontsize='large')    # the legend text fontsize
     plt.ylabel("vocs3/MOSc*150", size=20)
     plt.xlabel("Time", size=20)	
-vocs3.show()
+VOCs3fig.show()
 
 sub = 'vocs4'
 voc4=[ 'C8H10+ (m-xylene;O2+) (ppb)',	'C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)',	'C3H3+ (1,3-butadiene;O2+) (ppb)',	'C4H6+ (1,3-butadiene;O2+) (ppb)',	'C8H18+ (octane;O2+) (ppb)',	'C10H22+ (decane;O2+) (ppb)',	'C2H5O+ (ethanol;O2+) (ppb)',	'C2H6O+ (ethanol;O2+) (ppb)' 'MOS1c_Av']
