@@ -10,11 +10,9 @@ from scipy import stats
 from matplotlib.offsetbox import AnchoredText
 
 # The path to where the raw files are stored
-path = "..\Data\wacl_data\Raw_data_files\\"
-f_date = '\\201610'
-# The name of the MOS file to be analysed
-#cal_file = ['d160902_101257']
-cal_file = os.listdir(path + f_date +'\MOS')
+path = "../Data/wacl_data/Raw_data_files/"
+f_date = '201610'
+cal_file = os.listdir(path + f_date +'/MOS')
 if 'desktop.ini' in cal_file:
     cal_file.remove('desktop.ini')
 

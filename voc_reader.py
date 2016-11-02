@@ -45,7 +45,7 @@ def extract_voc(path, index1, index2):
                 mean_resampled['Time (ms)'] = pd.to_datetime(mean_resampled['Time (ms)'], unit='L')
         # Set the index to be the time column, when you do this it drops the index, even though it is set to False.
                 mean_resampled = mean_resampled.set_index(mean_resampled['Time (ms)'], drop=False)
-                mean_resampled = mean_resampled.resample('10S', fill_method='pad')
+                mean_resampled = mean_resampled.resample('10S', how='mean',fill_method='pad')
         # Re-add the time index so that it can be plotted later
                 Time = pd.Series(mean_resampled.index,name = 'Time', index = mean_resampled.index)
                 mean_resampled = pd.concat([mean_resampled, Time],axis = 1)

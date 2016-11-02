@@ -1,0 +1,13 @@
+Pete - Filechecker funtion (make it work on OS)
+     - Investigate cal_point_ammender function (why S and F ever go negative) (it might be fixed now though)
+     - Pop all functions into a seperate module to import into code
+     - Check the filelooper code, and make it check for duplicates in the data when writing.
+
+
+Matt - Cal_pointammender func (make sure right shift isn't in any other code)
+     - Upgrade the Isop Cal Filelooper too \/
+     - Make comments consistent throughout code (and especially code)
+     - Fix filelooper writer \/
+     - Pop the file-writer into a function
+     - Make humid_correct optional again
+     - Fix Plotters

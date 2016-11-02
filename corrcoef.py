@@ -13,7 +13,7 @@ from sklearn import linear_model
 from scipy import stats
 
 # The path to where the raw files are stored
-path = 'D:/WACL/Data/wacl_data/Raw_data_files/'
+path = "../Data/wacl_data/Raw_data_files/"
 f_date = '201610'
 cal_file = os.listdir(path + f_date +'/MOS')
 # The name of the MOS file to be analysed
@@ -278,7 +278,7 @@ print(np.corrcoef(data_concat['MOS1b_Av'],data_concat['MOS1c_Av']))
 print(np.corrcoef(data_concat['MOS1_Av'][1:],temp3))
 print(np.corrcoef(temp1, data_concat['HIH1_Av'][1:]))
 
-data_voc = voc_reader.extract_voc('D:/WACL/Data/', 'Detailed Compound Concentrations', 'Analyte vs Time') 
+data_voc = voc_reader.extract_voc('../Data/', 'Detailed Compound Concentrations', 'Analyte vs Time') 
 data_merge = data_concat.merge(data_voc, how = 'inner', on = ['Time'])
 
 VOC = ['CH5O+ (methanol;H3O+) (ppb)',	'CH3CN.H+ (acetonitrile;H3O+) (ppb)',	'C3H7O+ (acetone;H3O+) (ppb)',	'C4H6O.H+ (3-buten-2-one;H3O+) (ppb)',	'C6H6.H+ (benzene;H3O+) (ppb)',	'C8H10.H+ (m-xylene;H3O+) (ppb)',	'C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)',	'H3O+.C8H18 (octane;H3O+) (ppb)',	'C9H20.H3O+ (nonane;H3O+) (ppb)',	'H3O+.C10H22 (decane;H3O+) (ppb)',	'CH3O+ (formaldehyde;H3O+) (ppb)',	'NO+.C3H6O (acetone;NO+) (ppb)',	'C5H8+ (isoprene;NO+) (ppb)',	'C4H6O.NO+ (3-buten-2-one;NO+) (ppb)',	'NO+.C4H8O (butanone;NO+) (ppb)',	'C6H6+ (benzene;NO+) (ppb)',	'NO.C6H6+ (benzene;NO+) (ppb)',	'C7H8+ (toluene;NO+) (ppb)',	'C8H10+ (m-xylene;NO+) (ppb)',	'C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)',	'C4H6+ (1,3-butadiene;NO+) (ppb)',	'C8H17+ (octane;NO+) (ppb)',	'C10H21+ (decane;NO+) (ppb)',	'C2H5O+ (ethanol;NO+) (ppb)',	'C3H6O+ (acetone;O2+) (ppb)',	'C5H7+ (isoprene;O2+) (ppb)',	'C5H8+ (isoprene;O2+) (ppb)',	'C4H8O+ (butanone;O2+) (ppb)',	'C6H6+ (benzene;O2+) (ppb)',	'C7H8+ (toluene;O2+) (ppb)',	'C7H7+ (m-xylene;O2+) (ppb)',	'C8H10+ (m-xylene;O2+) (ppb)',	'C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)',	'C3H3+ (1,3-butadiene;O2+) (ppb)',	'C4H6+ (1,3-butadiene;O2+) (ppb)',	'C8H18+ (octane;O2+) (ppb)',	'C10H22+ (decane;O2+) (ppb)',	'C2H5O+ (ethanol;O2+) (ppb)',	'C2H6O+ (ethanol;O2+) (ppb)'
@@ -299,9 +299,18 @@ for i, j, k in zip(MOS, MOSb, MOSc):
 for i in VOC:
     print(i + '/MOS1c_Av')
     voc_corr.append(i + '/MOS1c_Av')
+    #print(data_merge['MOS1c_Av'],data_merge[i])
     print(np.corrcoef(data_merge['MOS1c_Av'],data_merge[i])[0][1])
     voc_corr.append(np.corrcoef(data_merge['MOS1c_Av'],data_merge[i])[0][1])
 
+for i in VOC:
+    j = VOC.index(i)
+    for k in VOC[j+1:]:
+        print(i + '/' + k)
+        voc_corr.append(i + '/' + k)
+        print(np.corrcoef(data_merge[i],data_merge[k])[0][1])
+        voc_corr.append(np.corrcoef(data_merge[i],data_merge[k])[0][1])
+ 
 voc_df = pd.DataFrame(voc_corr)
 voc_df.to_csv('voc_corr.csv')
 

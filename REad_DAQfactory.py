@@ -45,7 +45,6 @@ for n,c in zip(MOS,colors):
     #plt.ylabel("MOS (V, differentiated)", size=20)
     plt.ylabel("MOS (V)", size=20)
     plt.xlabel("Time", size=20)	
-
 MOSfig.show()
 
 """# Plot up the differentiated MOS voltages

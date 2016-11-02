@@ -20,7 +20,7 @@
 18,H3O+.C10H22 (decane;H3O+) (ppb)/MOS1c_Av
 19,0.469299648699
 20,CH3O+ (formaldehyde;H3O+) (ppb)/MOS1c_Av
-21,0.0179135011987
+21,0.427097844694
 22,NO+.C3H6O (acetone;NO+) (ppb)/MOS1c_Av
 23,0.586523110199
 24,C5H8+ (isoprene;NO+) (ppb)/MOS1c_Av
@@ -77,3 +77,1485 @@
 75,0.655502539974
 76,C2H6O+ (ethanol;O2+) (ppb)/MOS1c_Av
 77,0.510421634951
+78,CH5O+ (methanol;H3O+) (ppb)/CH3CN.H+ (acetonitrile;H3O+) (ppb)
+79,0.654169376523
+80,CH5O+ (methanol;H3O+) (ppb)/C3H7O+ (acetone;H3O+) (ppb)
+81,0.644422080506
+82,CH5O+ (methanol;H3O+) (ppb)/C4H6O.H+ (3-buten-2-one;H3O+) (ppb)
+83,0.648458960775
+84,CH5O+ (methanol;H3O+) (ppb)/C6H6.H+ (benzene;H3O+) (ppb)
+85,0.508533274377
+86,CH5O+ (methanol;H3O+) (ppb)/C8H10.H+ (m-xylene;H3O+) (ppb)
+87,0.495055707635
+88,"CH5O+ (methanol;H3O+) (ppb)/C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)"
+89,0.438437026008
+90,CH5O+ (methanol;H3O+) (ppb)/H3O+.C8H18 (octane;H3O+) (ppb)
+91,0.373181774085
+92,CH5O+ (methanol;H3O+) (ppb)/C9H20.H3O+ (nonane;H3O+) (ppb)
+93,0.344930372011
+94,CH5O+ (methanol;H3O+) (ppb)/H3O+.C10H22 (decane;H3O+) (ppb)
+95,0.306122291115
+96,CH5O+ (methanol;H3O+) (ppb)/CH3O+ (formaldehyde;H3O+) (ppb)
+97,0.502615618924
+98,CH5O+ (methanol;H3O+) (ppb)/NO+.C3H6O (acetone;NO+) (ppb)
+99,0.573614877652
+100,CH5O+ (methanol;H3O+) (ppb)/C5H8+ (isoprene;NO+) (ppb)
+101,0.372941215749
+102,CH5O+ (methanol;H3O+) (ppb)/C4H6O.NO+ (3-buten-2-one;NO+) (ppb)
+103,0.56644393728
+104,CH5O+ (methanol;H3O+) (ppb)/NO+.C4H8O (butanone;NO+) (ppb)
+105,0.505614935196
+106,CH5O+ (methanol;H3O+) (ppb)/C6H6+ (benzene;NO+) (ppb)
+107,0.469653235736
+108,CH5O+ (methanol;H3O+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)
+109,0.526519447239
+110,CH5O+ (methanol;H3O+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+111,0.467795337453
+112,CH5O+ (methanol;H3O+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+113,0.381295714993
+114,"CH5O+ (methanol;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+115,0.429058849516
+116,"CH5O+ (methanol;H3O+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+117,0.231941882334
+118,CH5O+ (methanol;H3O+) (ppb)/C8H17+ (octane;NO+) (ppb)
+119,0.435967749473
+120,CH5O+ (methanol;H3O+) (ppb)/C10H21+ (decane;NO+) (ppb)
+121,0.384217016535
+122,CH5O+ (methanol;H3O+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+123,0.419868429265
+124,CH5O+ (methanol;H3O+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+125,0.541320648153
+126,CH5O+ (methanol;H3O+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+127,0.358077643428
+128,CH5O+ (methanol;H3O+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+129,0.480819624639
+130,CH5O+ (methanol;H3O+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+131,0.575456458018
+132,CH5O+ (methanol;H3O+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+133,0.520694629385
+134,CH5O+ (methanol;H3O+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+135,0.488365538088
+136,CH5O+ (methanol;H3O+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+137,0.500180823213
+138,CH5O+ (methanol;H3O+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+139,0.45600958548
+140,"CH5O+ (methanol;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+141,0.378964020846
+142,"CH5O+ (methanol;H3O+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+143,0.561708730188
+144,"CH5O+ (methanol;H3O+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+145,0.412718367663
+146,CH5O+ (methanol;H3O+) (ppb)/C8H18+ (octane;O2+) (ppb)
+147,0.499414701799
+148,CH5O+ (methanol;H3O+) (ppb)/C10H22+ (decane;O2+) (ppb)
+149,0.358970949502
+150,CH5O+ (methanol;H3O+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+151,0.432198298093
+152,CH5O+ (methanol;H3O+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+153,0.520916896219
+154,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C3H7O+ (acetone;H3O+) (ppb)
+155,0.918142022345
+156,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C4H6O.H+ (3-buten-2-one;H3O+) (ppb)
+157,0.722944954186
+158,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C6H6.H+ (benzene;H3O+) (ppb)
+159,0.880241066438
+160,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C8H10.H+ (m-xylene;H3O+) (ppb)
+161,0.883724287319
+162,"CH3CN.H+ (acetonitrile;H3O+) (ppb)/C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)"
+163,0.814025203698
+164,CH3CN.H+ (acetonitrile;H3O+) (ppb)/H3O+.C8H18 (octane;H3O+) (ppb)
+165,0.702736189177
+166,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C9H20.H3O+ (nonane;H3O+) (ppb)
+167,0.657884188499
+168,CH3CN.H+ (acetonitrile;H3O+) (ppb)/H3O+.C10H22 (decane;H3O+) (ppb)
+169,0.621952153718
+170,CH3CN.H+ (acetonitrile;H3O+) (ppb)/CH3O+ (formaldehyde;H3O+) (ppb)
+171,0.336672168737
+172,CH3CN.H+ (acetonitrile;H3O+) (ppb)/NO+.C3H6O (acetone;NO+) (ppb)
+173,0.877885071059
+174,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C5H8+ (isoprene;NO+) (ppb)
+175,0.597351491566
+176,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C4H6O.NO+ (3-buten-2-one;NO+) (ppb)
+177,0.926791131807
+178,CH3CN.H+ (acetonitrile;H3O+) (ppb)/NO+.C4H8O (butanone;NO+) (ppb)
+179,0.845814351558
+180,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C6H6+ (benzene;NO+) (ppb)
+181,0.727070637589
+182,CH3CN.H+ (acetonitrile;H3O+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)
+183,0.871331656988
+184,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+185,0.784995372348
+186,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+187,0.750018637085
+188,"CH3CN.H+ (acetonitrile;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+189,0.793653600515
+190,"CH3CN.H+ (acetonitrile;H3O+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+191,0.261826835062
+192,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C8H17+ (octane;NO+) (ppb)
+193,0.820467879983
+194,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C10H21+ (decane;NO+) (ppb)
+195,0.765541902508
+196,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+197,0.60438506604
+198,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+199,0.880337145391
+200,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+201,0.600356044127
+202,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+203,0.75466986742
+204,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+205,0.876631201322
+206,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+207,0.852676607111
+208,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+209,0.804526961767
+210,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+211,0.847622263538
+212,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+213,0.85234553325
+214,"CH3CN.H+ (acetonitrile;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+215,0.7363237043
+216,"CH3CN.H+ (acetonitrile;H3O+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+217,0.945108545416
+218,"CH3CN.H+ (acetonitrile;H3O+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+219,0.684662798159
+220,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C8H18+ (octane;O2+) (ppb)
+221,0.882852509103
+222,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C10H22+ (decane;O2+) (ppb)
+223,0.652035280193
+224,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+225,0.637881356061
+226,CH3CN.H+ (acetonitrile;H3O+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+227,0.869501098165
+228,C3H7O+ (acetone;H3O+) (ppb)/C4H6O.H+ (3-buten-2-one;H3O+) (ppb)
+229,0.615798662496
+230,C3H7O+ (acetone;H3O+) (ppb)/C6H6.H+ (benzene;H3O+) (ppb)
+231,0.924134937914
+232,C3H7O+ (acetone;H3O+) (ppb)/C8H10.H+ (m-xylene;H3O+) (ppb)
+233,0.876984051603
+234,"C3H7O+ (acetone;H3O+) (ppb)/C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)"
+235,0.855925606892
+236,C3H7O+ (acetone;H3O+) (ppb)/H3O+.C8H18 (octane;H3O+) (ppb)
+237,0.759158187571
+238,C3H7O+ (acetone;H3O+) (ppb)/C9H20.H3O+ (nonane;H3O+) (ppb)
+239,0.750045035606
+240,C3H7O+ (acetone;H3O+) (ppb)/H3O+.C10H22 (decane;H3O+) (ppb)
+241,0.741574358255
+242,C3H7O+ (acetone;H3O+) (ppb)/CH3O+ (formaldehyde;H3O+) (ppb)
+243,0.314606035075
+244,C3H7O+ (acetone;H3O+) (ppb)/NO+.C3H6O (acetone;NO+) (ppb)
+245,0.935819487
+246,C3H7O+ (acetone;H3O+) (ppb)/C5H8+ (isoprene;NO+) (ppb)
+247,0.706219866041
+248,C3H7O+ (acetone;H3O+) (ppb)/C4H6O.NO+ (3-buten-2-one;NO+) (ppb)
+249,0.905943805077
+250,C3H7O+ (acetone;H3O+) (ppb)/NO+.C4H8O (butanone;NO+) (ppb)
+251,0.850482690425
+252,C3H7O+ (acetone;H3O+) (ppb)/C6H6+ (benzene;NO+) (ppb)
+253,0.724743123472
+254,C3H7O+ (acetone;H3O+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)
+255,0.85054447424
+256,C3H7O+ (acetone;H3O+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+257,0.739947317429
+258,C3H7O+ (acetone;H3O+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+259,0.677763525823
+260,"C3H7O+ (acetone;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+261,0.813123523201
+262,"C3H7O+ (acetone;H3O+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+263,0.241528839771
+264,C3H7O+ (acetone;H3O+) (ppb)/C8H17+ (octane;NO+) (ppb)
+265,0.859970739781
+266,C3H7O+ (acetone;H3O+) (ppb)/C10H21+ (decane;NO+) (ppb)
+267,0.860585487767
+268,C3H7O+ (acetone;H3O+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+269,0.709656211611
+270,C3H7O+ (acetone;H3O+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+271,0.936669703988
+272,C3H7O+ (acetone;H3O+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+273,0.669667051129
+274,C3H7O+ (acetone;H3O+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+275,0.80778936661
+276,C3H7O+ (acetone;H3O+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+277,0.898042816987
+278,C3H7O+ (acetone;H3O+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+279,0.866448307679
+280,C3H7O+ (acetone;H3O+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+281,0.75555923785
+282,C3H7O+ (acetone;H3O+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+283,0.847372583092
+284,C3H7O+ (acetone;H3O+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+285,0.833208692574
+286,"C3H7O+ (acetone;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+287,0.772881467259
+288,"C3H7O+ (acetone;H3O+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+289,0.941187924877
+290,"C3H7O+ (acetone;H3O+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+291,0.731877386753
+292,C3H7O+ (acetone;H3O+) (ppb)/C8H18+ (octane;O2+) (ppb)
+293,0.856355895809
+294,C3H7O+ (acetone;H3O+) (ppb)/C10H22+ (decane;O2+) (ppb)
+295,0.707822955505
+296,C3H7O+ (acetone;H3O+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+297,0.750770005496
+298,C3H7O+ (acetone;H3O+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+299,0.878047877366
+300,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C6H6.H+ (benzene;H3O+) (ppb)
+301,0.508072417193
+302,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C8H10.H+ (m-xylene;H3O+) (ppb)
+303,0.528301150074
+304,"C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)"
+305,0.439026921198
+306,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/H3O+.C8H18 (octane;H3O+) (ppb)
+307,0.343507534025
+308,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C9H20.H3O+ (nonane;H3O+) (ppb)
+309,0.295538090342
+310,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/H3O+.C10H22 (decane;H3O+) (ppb)
+311,0.255993741859
+312,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/CH3O+ (formaldehyde;H3O+) (ppb)
+313,0.576692331824
+314,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/NO+.C3H6O (acetone;NO+) (ppb)
+315,0.530267823527
+316,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C5H8+ (isoprene;NO+) (ppb)
+317,0.283459342977
+318,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C4H6O.NO+ (3-buten-2-one;NO+) (ppb)
+319,0.576048168447
+320,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/NO+.C4H8O (butanone;NO+) (ppb)
+321,0.514201685934
+322,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C6H6+ (benzene;NO+) (ppb)
+323,0.48710753942
+324,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)
+325,0.539705001855
+326,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+327,0.513754369431
+328,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+329,0.465846627173
+330,"C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+331,0.430734634177
+332,"C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+333,0.237579459889
+334,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C8H17+ (octane;NO+) (ppb)
+335,0.43914279077
+336,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C10H21+ (decane;NO+) (ppb)
+337,0.349705652302
+338,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+339,0.231934633034
+340,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+341,0.50526919761
+342,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+343,0.314746311092
+344,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+345,0.46048318339
+346,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+347,0.582796877973
+348,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+349,0.534813830977
+350,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+351,0.546892511086
+352,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+353,0.515742834507
+354,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+355,0.496503393036
+356,"C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+357,0.375234680648
+358,"C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+359,0.563259923929
+360,"C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+361,0.383373687603
+362,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C8H18+ (octane;O2+) (ppb)
+363,0.523452498769
+364,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C10H22+ (decane;O2+) (ppb)
+365,0.322178287792
+366,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+367,0.260976394343
+368,C4H6O.H+ (3-buten-2-one;H3O+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+369,0.497934082771
+370,C6H6.H+ (benzene;H3O+) (ppb)/C8H10.H+ (m-xylene;H3O+) (ppb)
+371,0.878223162297
+372,"C6H6.H+ (benzene;H3O+) (ppb)/C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)"
+373,0.875510688818
+374,C6H6.H+ (benzene;H3O+) (ppb)/H3O+.C8H18 (octane;H3O+) (ppb)
+375,0.773151165399
+376,C6H6.H+ (benzene;H3O+) (ppb)/C9H20.H3O+ (nonane;H3O+) (ppb)
+377,0.775774650607
+378,C6H6.H+ (benzene;H3O+) (ppb)/H3O+.C10H22 (decane;H3O+) (ppb)
+379,0.768842650891
+380,C6H6.H+ (benzene;H3O+) (ppb)/CH3O+ (formaldehyde;H3O+) (ppb)
+381,0.211685023106
+382,C6H6.H+ (benzene;H3O+) (ppb)/NO+.C3H6O (acetone;NO+) (ppb)
+383,0.91702165706
+384,C6H6.H+ (benzene;H3O+) (ppb)/C5H8+ (isoprene;NO+) (ppb)
+385,0.703396242063
+386,C6H6.H+ (benzene;H3O+) (ppb)/C4H6O.NO+ (3-buten-2-one;NO+) (ppb)
+387,0.891037576185
+388,C6H6.H+ (benzene;H3O+) (ppb)/NO+.C4H8O (butanone;NO+) (ppb)
+389,0.844254175677
+390,C6H6.H+ (benzene;H3O+) (ppb)/C6H6+ (benzene;NO+) (ppb)
+391,0.717182390982
+392,C6H6.H+ (benzene;H3O+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)
+393,0.846080775087
+394,C6H6.H+ (benzene;H3O+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+395,0.744389550171
+396,C6H6.H+ (benzene;H3O+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+397,0.698594634448
+398,"C6H6.H+ (benzene;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+399,0.834470459033
+400,"C6H6.H+ (benzene;H3O+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+401,0.207460401683
+402,C6H6.H+ (benzene;H3O+) (ppb)/C8H17+ (octane;NO+) (ppb)
+403,0.881682696172
+404,C6H6.H+ (benzene;H3O+) (ppb)/C10H21+ (decane;NO+) (ppb)
+405,0.896259233933
+406,C6H6.H+ (benzene;H3O+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+407,0.692097661135
+408,C6H6.H+ (benzene;H3O+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+409,0.933158031986
+410,C6H6.H+ (benzene;H3O+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+411,0.678280163366
+412,C6H6.H+ (benzene;H3O+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+413,0.797873247363
+414,C6H6.H+ (benzene;H3O+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+415,0.873523644081
+416,C6H6.H+ (benzene;H3O+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+417,0.859577811891
+418,C6H6.H+ (benzene;H3O+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+419,0.751847593929
+420,C6H6.H+ (benzene;H3O+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+421,0.846787978626
+422,C6H6.H+ (benzene;H3O+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+423,0.854771458647
+424,"C6H6.H+ (benzene;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+425,0.807447792238
+426,"C6H6.H+ (benzene;H3O+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+427,0.939867805589
+428,"C6H6.H+ (benzene;H3O+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+429,0.736181003257
+430,C6H6.H+ (benzene;H3O+) (ppb)/C8H18+ (octane;O2+) (ppb)
+431,0.85924390396
+432,C6H6.H+ (benzene;H3O+) (ppb)/C10H22+ (decane;O2+) (ppb)
+433,0.721120693914
+434,C6H6.H+ (benzene;H3O+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+435,0.753848814913
+436,C6H6.H+ (benzene;H3O+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+437,0.867111512092
+438,"C8H10.H+ (m-xylene;H3O+) (ppb)/C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)"
+439,0.826985611332
+440,C8H10.H+ (m-xylene;H3O+) (ppb)/H3O+.C8H18 (octane;H3O+) (ppb)
+441,0.730401460485
+442,C8H10.H+ (m-xylene;H3O+) (ppb)/C9H20.H3O+ (nonane;H3O+) (ppb)
+443,0.714215888165
+444,C8H10.H+ (m-xylene;H3O+) (ppb)/H3O+.C10H22 (decane;H3O+) (ppb)
+445,0.686507244327
+446,C8H10.H+ (m-xylene;H3O+) (ppb)/CH3O+ (formaldehyde;H3O+) (ppb)
+447,0.168735165513
+448,C8H10.H+ (m-xylene;H3O+) (ppb)/NO+.C3H6O (acetone;NO+) (ppb)
+449,0.863876890644
+450,C8H10.H+ (m-xylene;H3O+) (ppb)/C5H8+ (isoprene;NO+) (ppb)
+451,0.653006585783
+452,C8H10.H+ (m-xylene;H3O+) (ppb)/C4H6O.NO+ (3-buten-2-one;NO+) (ppb)
+453,0.879677450868
+454,C8H10.H+ (m-xylene;H3O+) (ppb)/NO+.C4H8O (butanone;NO+) (ppb)
+455,0.823195992746
+456,C8H10.H+ (m-xylene;H3O+) (ppb)/C6H6+ (benzene;NO+) (ppb)
+457,0.688398158593
+458,C8H10.H+ (m-xylene;H3O+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)
+459,0.828005021507
+460,C8H10.H+ (m-xylene;H3O+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+461,0.743654546412
+462,C8H10.H+ (m-xylene;H3O+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+463,0.727038020373
+464,"C8H10.H+ (m-xylene;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+465,0.803132128004
+466,"C8H10.H+ (m-xylene;H3O+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+467,0.224430089836
+468,C8H10.H+ (m-xylene;H3O+) (ppb)/C8H17+ (octane;NO+) (ppb)
+469,0.837116795197
+470,C8H10.H+ (m-xylene;H3O+) (ppb)/C10H21+ (decane;NO+) (ppb)
+471,0.823749531939
+472,C8H10.H+ (m-xylene;H3O+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+473,0.648318177056
+474,C8H10.H+ (m-xylene;H3O+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+475,0.880979499209
+476,C8H10.H+ (m-xylene;H3O+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+477,0.624644451626
+478,C8H10.H+ (m-xylene;H3O+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+479,0.746954852138
+480,C8H10.H+ (m-xylene;H3O+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+481,0.837185166452
+482,C8H10.H+ (m-xylene;H3O+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+483,0.82449232206
+484,C8H10.H+ (m-xylene;H3O+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+485,0.752363529272
+486,C8H10.H+ (m-xylene;H3O+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+487,0.828181629267
+488,C8H10.H+ (m-xylene;H3O+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+489,0.836812198725
+490,"C8H10.H+ (m-xylene;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+491,0.757536614195
+492,"C8H10.H+ (m-xylene;H3O+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+493,0.921836462888
+494,"C8H10.H+ (m-xylene;H3O+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+495,0.69874641961
+496,C8H10.H+ (m-xylene;H3O+) (ppb)/C8H18+ (octane;O2+) (ppb)
+497,0.85478599478
+498,C8H10.H+ (m-xylene;H3O+) (ppb)/C10H22+ (decane;O2+) (ppb)
+499,0.676851462217
+500,C8H10.H+ (m-xylene;H3O+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+501,0.684829823375
+502,C8H10.H+ (m-xylene;H3O+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+503,0.84776466555
+504,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/H3O+.C8H18 (octane;H3O+) (ppb)"
+505,0.741239240177
+506,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C9H20.H3O+ (nonane;H3O+) (ppb)"
+507,0.722112046111
+508,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/H3O+.C10H22 (decane;H3O+) (ppb)"
+509,0.723276408106
+510,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/CH3O+ (formaldehyde;H3O+) (ppb)"
+511,0.126679209894
+512,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/NO+.C3H6O (acetone;NO+) (ppb)"
+513,0.858654894947
+514,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C5H8+ (isoprene;NO+) (ppb)"
+515,0.664583554838
+516,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C4H6O.NO+ (3-buten-2-one;NO+) (ppb)"
+517,0.843510183996
+518,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/NO+.C4H8O (butanone;NO+) (ppb)"
+519,0.787909360255
+520,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C6H6+ (benzene;NO+) (ppb)"
+521,0.661249209344
+522,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)"
+523,0.788083357298
+524,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C7H8+ (toluene;NO+) (ppb)"
+525,0.684573676953
+526,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)"
+527,0.65135381205
+528,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+529,0.787796842757
+530,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+531,0.194113807326
+532,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C8H17+ (octane;NO+) (ppb)"
+533,0.830297711421
+534,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C10H21+ (decane;NO+) (ppb)"
+535,0.851133622244
+536,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)"
+537,0.680597710623
+538,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C3H6O+ (acetone;O2+) (ppb)"
+539,0.87933706061
+540,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C5H7+ (isoprene;O2+) (ppb)"
+541,0.638908129546
+542,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C5H8+ (isoprene;O2+) (ppb)"
+543,0.752565261798
+544,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C4H8O+ (butanone;O2+) (ppb)"
+545,0.814976524661
+546,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C6H6+ (benzene;O2+) (ppb)"
+547,0.804610437249
+548,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C7H8+ (toluene;O2+) (ppb)"
+549,0.691483803713
+550,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)"
+551,0.796172984454
+552,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)"
+553,0.797494400415
+554,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+555,0.758841069769
+556,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+557,0.886076806649
+558,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+559,0.686920961599
+560,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C8H18+ (octane;O2+) (ppb)"
+561,0.809008136878
+562,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C10H22+ (decane;O2+) (ppb)"
+563,0.687010881446
+564,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)"
+565,0.721338968946
+566,"C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)"
+567,0.825069570069
+568,H3O+.C8H18 (octane;H3O+) (ppb)/C9H20.H3O+ (nonane;H3O+) (ppb)
+569,0.663735466864
+570,H3O+.C8H18 (octane;H3O+) (ppb)/H3O+.C10H22 (decane;H3O+) (ppb)
+571,0.660983046658
+572,H3O+.C8H18 (octane;H3O+) (ppb)/CH3O+ (formaldehyde;H3O+) (ppb)
+573,0.0688012953986
+574,H3O+.C8H18 (octane;H3O+) (ppb)/NO+.C3H6O (acetone;NO+) (ppb)
+575,0.765465176671
+576,H3O+.C8H18 (octane;H3O+) (ppb)/C5H8+ (isoprene;NO+) (ppb)
+577,0.609717973597
+578,H3O+.C8H18 (octane;H3O+) (ppb)/C4H6O.NO+ (3-buten-2-one;NO+) (ppb)
+579,0.743042981043
+580,H3O+.C8H18 (octane;H3O+) (ppb)/NO+.C4H8O (butanone;NO+) (ppb)
+581,0.696322516729
+582,H3O+.C8H18 (octane;H3O+) (ppb)/C6H6+ (benzene;NO+) (ppb)
+583,0.569530794855
+584,H3O+.C8H18 (octane;H3O+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)
+585,0.702800073066
+586,H3O+.C8H18 (octane;H3O+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+587,0.60986181514
+588,H3O+.C8H18 (octane;H3O+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+589,0.559254075196
+590,"H3O+.C8H18 (octane;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+591,0.708372335164
+592,"H3O+.C8H18 (octane;H3O+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+593,0.169176882115
+594,H3O+.C8H18 (octane;H3O+) (ppb)/C8H17+ (octane;NO+) (ppb)
+595,0.739119220513
+596,H3O+.C8H18 (octane;H3O+) (ppb)/C10H21+ (decane;NO+) (ppb)
+597,0.768109776667
+598,H3O+.C8H18 (octane;H3O+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+599,0.648327050748
+600,H3O+.C8H18 (octane;H3O+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+601,0.785529914885
+602,H3O+.C8H18 (octane;H3O+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+603,0.560120324258
+604,H3O+.C8H18 (octane;H3O+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+605,0.665021107023
+606,H3O+.C8H18 (octane;H3O+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+607,0.714979261857
+608,H3O+.C8H18 (octane;H3O+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+609,0.699967898968
+610,H3O+.C8H18 (octane;H3O+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+611,0.611397545189
+612,H3O+.C8H18 (octane;H3O+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+613,0.703780793524
+614,H3O+.C8H18 (octane;H3O+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+615,0.711366530914
+616,"H3O+.C8H18 (octane;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+617,0.692711355457
+618,"H3O+.C8H18 (octane;H3O+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+619,0.78569997376
+620,"H3O+.C8H18 (octane;H3O+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+621,0.619028484437
+622,H3O+.C8H18 (octane;H3O+) (ppb)/C8H18+ (octane;O2+) (ppb)
+623,0.719688313251
+624,H3O+.C8H18 (octane;H3O+) (ppb)/C10H22+ (decane;O2+) (ppb)
+625,0.624092076874
+626,H3O+.C8H18 (octane;H3O+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+627,0.677037036519
+628,H3O+.C8H18 (octane;H3O+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+629,0.733911762009
+630,C9H20.H3O+ (nonane;H3O+) (ppb)/H3O+.C10H22 (decane;H3O+) (ppb)
+631,0.689103859847
+632,C9H20.H3O+ (nonane;H3O+) (ppb)/CH3O+ (formaldehyde;H3O+) (ppb)
+633,0.0668807809213
+634,C9H20.H3O+ (nonane;H3O+) (ppb)/NO+.C3H6O (acetone;NO+) (ppb)
+635,0.762581097504
+636,C9H20.H3O+ (nonane;H3O+) (ppb)/C5H8+ (isoprene;NO+) (ppb)
+637,0.629399451886
+638,C9H20.H3O+ (nonane;H3O+) (ppb)/C4H6O.NO+ (3-buten-2-one;NO+) (ppb)
+639,0.713228025803
+640,C9H20.H3O+ (nonane;H3O+) (ppb)/NO+.C4H8O (butanone;NO+) (ppb)
+641,0.685589577011
+642,C9H20.H3O+ (nonane;H3O+) (ppb)/C6H6+ (benzene;NO+) (ppb)
+643,0.558575330899
+644,C9H20.H3O+ (nonane;H3O+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)
+645,0.660878294737
+646,C9H20.H3O+ (nonane;H3O+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+647,0.559510136449
+648,C9H20.H3O+ (nonane;H3O+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+649,0.512855360826
+650,"C9H20.H3O+ (nonane;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+651,0.694991068089
+652,"C9H20.H3O+ (nonane;H3O+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+653,0.141835011404
+654,C9H20.H3O+ (nonane;H3O+) (ppb)/C8H17+ (octane;NO+) (ppb)
+655,0.729741970218
+656,C9H20.H3O+ (nonane;H3O+) (ppb)/C10H21+ (decane;NO+) (ppb)
+657,0.777514828838
+658,C9H20.H3O+ (nonane;H3O+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+659,0.653703349502
+660,C9H20.H3O+ (nonane;H3O+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+661,0.776399362978
+662,C9H20.H3O+ (nonane;H3O+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+663,0.582252291636
+664,C9H20.H3O+ (nonane;H3O+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+665,0.65591724963
+666,C9H20.H3O+ (nonane;H3O+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+667,0.701268314963
+668,C9H20.H3O+ (nonane;H3O+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+669,0.68892807163
+670,C9H20.H3O+ (nonane;H3O+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+671,0.569125077164
+672,C9H20.H3O+ (nonane;H3O+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+673,0.687503431118
+674,C9H20.H3O+ (nonane;H3O+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+675,0.677538130489
+676,"C9H20.H3O+ (nonane;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+677,0.67222994557
+678,"C9H20.H3O+ (nonane;H3O+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+679,0.758052120998
+680,"C9H20.H3O+ (nonane;H3O+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+681,0.613766120315
+682,C9H20.H3O+ (nonane;H3O+) (ppb)/C8H18+ (octane;O2+) (ppb)
+683,0.688301346932
+684,C9H20.H3O+ (nonane;H3O+) (ppb)/C10H22+ (decane;O2+) (ppb)
+685,0.613388710045
+686,C9H20.H3O+ (nonane;H3O+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+687,0.695399334806
+688,C9H20.H3O+ (nonane;H3O+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+689,0.721182829951
+690,H3O+.C10H22 (decane;H3O+) (ppb)/CH3O+ (formaldehyde;H3O+) (ppb)
+691,0.0650891135773
+692,H3O+.C10H22 (decane;H3O+) (ppb)/NO+.C3H6O (acetone;NO+) (ppb)
+693,0.753507612699
+694,H3O+.C10H22 (decane;H3O+) (ppb)/C5H8+ (isoprene;NO+) (ppb)
+695,0.631247167706
+696,H3O+.C10H22 (decane;H3O+) (ppb)/C4H6O.NO+ (3-buten-2-one;NO+) (ppb)
+697,0.6934372272
+698,H3O+.C10H22 (decane;H3O+) (ppb)/NO+.C4H8O (butanone;NO+) (ppb)
+699,0.672464171737
+700,H3O+.C10H22 (decane;H3O+) (ppb)/C6H6+ (benzene;NO+) (ppb)
+701,0.545607105197
+702,H3O+.C10H22 (decane;H3O+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)
+703,0.653652302676
+704,H3O+.C10H22 (decane;H3O+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+705,0.529905181325
+706,H3O+.C10H22 (decane;H3O+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+707,0.494606859133
+708,"H3O+.C10H22 (decane;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+709,0.675639416805
+710,"H3O+.C10H22 (decane;H3O+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+711,0.143001134134
+712,H3O+.C10H22 (decane;H3O+) (ppb)/C8H17+ (octane;NO+) (ppb)
+713,0.72867590352
+714,H3O+.C10H22 (decane;H3O+) (ppb)/C10H21+ (decane;NO+) (ppb)
+715,0.796217528519
+716,H3O+.C10H22 (decane;H3O+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+717,0.650832728931
+718,H3O+.C10H22 (decane;H3O+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+719,0.768644338463
+720,H3O+.C10H22 (decane;H3O+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+721,0.601534602524
+722,H3O+.C10H22 (decane;H3O+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+723,0.655434328748
+724,H3O+.C10H22 (decane;H3O+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+725,0.69214160587
+726,H3O+.C10H22 (decane;H3O+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+727,0.698064644193
+728,H3O+.C10H22 (decane;H3O+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+729,0.530352951522
+730,H3O+.C10H22 (decane;H3O+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+731,0.662475220854
+732,H3O+.C10H22 (decane;H3O+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+733,0.664488724454
+734,"H3O+.C10H22 (decane;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+735,0.672010657068
+736,"H3O+.C10H22 (decane;H3O+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+737,0.737313994874
+738,"H3O+.C10H22 (decane;H3O+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+739,0.614161054138
+740,H3O+.C10H22 (decane;H3O+) (ppb)/C8H18+ (octane;O2+) (ppb)
+741,0.665245463674
+742,H3O+.C10H22 (decane;H3O+) (ppb)/C10H22+ (decane;O2+) (ppb)
+743,0.611002352913
+744,H3O+.C10H22 (decane;H3O+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+745,0.69092563247
+746,H3O+.C10H22 (decane;H3O+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+747,0.69579931263
+748,CH3O+ (formaldehyde;H3O+) (ppb)/NO+.C3H6O (acetone;NO+) (ppb)
+749,0.221811663367
+750,CH3O+ (formaldehyde;H3O+) (ppb)/C5H8+ (isoprene;NO+) (ppb)
+751,0.0817443713355
+752,CH3O+ (formaldehyde;H3O+) (ppb)/C4H6O.NO+ (3-buten-2-one;NO+) (ppb)
+753,0.187193838912
+754,CH3O+ (formaldehyde;H3O+) (ppb)/NO+.C4H8O (butanone;NO+) (ppb)
+755,0.168490587856
+756,CH3O+ (formaldehyde;H3O+) (ppb)/C6H6+ (benzene;NO+) (ppb)
+757,0.229798425617
+758,CH3O+ (formaldehyde;H3O+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)
+759,0.186298812585
+760,CH3O+ (formaldehyde;H3O+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+761,0.198268706935
+762,CH3O+ (formaldehyde;H3O+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+763,0.12515654777
+764,"CH3O+ (formaldehyde;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+765,0.105479519861
+766,"CH3O+ (formaldehyde;H3O+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+767,0.142038330279
+768,CH3O+ (formaldehyde;H3O+) (ppb)/C8H17+ (octane;NO+) (ppb)
+769,0.119480402924
+770,CH3O+ (formaldehyde;H3O+) (ppb)/C10H21+ (decane;NO+) (ppb)
+771,0.061198411541
+772,CH3O+ (formaldehyde;H3O+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+773,-0.0295358539549
+774,CH3O+ (formaldehyde;H3O+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+775,0.191215532131
+776,CH3O+ (formaldehyde;H3O+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+777,0.110084419148
+778,CH3O+ (formaldehyde;H3O+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+779,0.210436850162
+780,CH3O+ (formaldehyde;H3O+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+781,0.288403137355
+782,CH3O+ (formaldehyde;H3O+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+783,0.218433102398
+784,CH3O+ (formaldehyde;H3O+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+785,0.215356926626
+786,CH3O+ (formaldehyde;H3O+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+787,0.185818734962
+788,CH3O+ (formaldehyde;H3O+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+789,0.156035139103
+790,"CH3O+ (formaldehyde;H3O+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+791,0.0882516982331
+792,"CH3O+ (formaldehyde;H3O+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+793,0.176849943594
+794,"CH3O+ (formaldehyde;H3O+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+795,0.14531977322
+796,CH3O+ (formaldehyde;H3O+) (ppb)/C8H18+ (octane;O2+) (ppb)
+797,0.14031883411
+798,CH3O+ (formaldehyde;H3O+) (ppb)/C10H22+ (decane;O2+) (ppb)
+799,0.0705876609791
+800,CH3O+ (formaldehyde;H3O+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+801,0.0167394439913
+802,CH3O+ (formaldehyde;H3O+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+803,0.135787090539
+804,NO+.C3H6O (acetone;NO+) (ppb)/C5H8+ (isoprene;NO+) (ppb)
+805,0.711708320278
+806,NO+.C3H6O (acetone;NO+) (ppb)/C4H6O.NO+ (3-buten-2-one;NO+) (ppb)
+807,0.89154126748
+808,NO+.C3H6O (acetone;NO+) (ppb)/NO+.C4H8O (butanone;NO+) (ppb)
+809,0.83506262161
+810,NO+.C3H6O (acetone;NO+) (ppb)/C6H6+ (benzene;NO+) (ppb)
+811,0.704008163694
+812,NO+.C3H6O (acetone;NO+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)
+813,0.837838346117
+814,NO+.C3H6O (acetone;NO+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+815,0.720228322478
+816,NO+.C3H6O (acetone;NO+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+817,0.667646675003
+818,"NO+.C3H6O (acetone;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+819,0.816038261974
+820,"NO+.C3H6O (acetone;NO+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+821,0.217673558372
+822,NO+.C3H6O (acetone;NO+) (ppb)/C8H17+ (octane;NO+) (ppb)
+823,0.865845944134
+824,NO+.C3H6O (acetone;NO+) (ppb)/C10H21+ (decane;NO+) (ppb)
+825,0.873306464487
+826,NO+.C3H6O (acetone;NO+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+827,0.737910517258
+828,NO+.C3H6O (acetone;NO+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+829,0.933060101019
+830,NO+.C3H6O (acetone;NO+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+831,0.677213101183
+832,NO+.C3H6O (acetone;NO+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+833,0.793144966862
+834,NO+.C3H6O (acetone;NO+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+835,0.87876685839
+836,NO+.C3H6O (acetone;NO+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+837,0.857573276271
+838,NO+.C3H6O (acetone;NO+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+839,0.726413984983
+840,NO+.C3H6O (acetone;NO+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+841,0.837303942355
+842,NO+.C3H6O (acetone;NO+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+843,0.829793588705
+844,"NO+.C3H6O (acetone;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+845,0.778238843918
+846,"NO+.C3H6O (acetone;NO+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+847,0.934409961639
+848,"NO+.C3H6O (acetone;NO+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+849,0.733253170132
+850,NO+.C3H6O (acetone;NO+) (ppb)/C8H18+ (octane;O2+) (ppb)
+851,0.844495313323
+852,NO+.C3H6O (acetone;NO+) (ppb)/C10H22+ (decane;O2+) (ppb)
+853,0.714901242831
+854,NO+.C3H6O (acetone;NO+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+855,0.776277236186
+856,NO+.C3H6O (acetone;NO+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+857,0.872616984923
+858,C5H8+ (isoprene;NO+) (ppb)/C4H6O.NO+ (3-buten-2-one;NO+) (ppb)
+859,0.654994636183
+860,C5H8+ (isoprene;NO+) (ppb)/NO+.C4H8O (butanone;NO+) (ppb)
+861,0.619292602685
+862,C5H8+ (isoprene;NO+) (ppb)/C6H6+ (benzene;NO+) (ppb)
+863,0.516223182037
+864,C5H8+ (isoprene;NO+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)
+865,0.615346332906
+866,C5H8+ (isoprene;NO+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+867,0.5215962836
+868,C5H8+ (isoprene;NO+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+869,0.463647525044
+870,"C5H8+ (isoprene;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+871,0.626434223382
+872,"C5H8+ (isoprene;NO+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+873,0.150014802328
+874,C5H8+ (isoprene;NO+) (ppb)/C8H17+ (octane;NO+) (ppb)
+875,0.672073210203
+876,C5H8+ (isoprene;NO+) (ppb)/C10H21+ (decane;NO+) (ppb)
+877,0.722227039812
+878,C5H8+ (isoprene;NO+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+879,0.628959761081
+880,C5H8+ (isoprene;NO+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+881,0.722620353759
+882,C5H8+ (isoprene;NO+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+883,0.549568456435
+884,C5H8+ (isoprene;NO+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+885,0.610042253055
+886,C5H8+ (isoprene;NO+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+887,0.644932045474
+888,C5H8+ (isoprene;NO+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+889,0.632912394174
+890,C5H8+ (isoprene;NO+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+891,0.530014750732
+892,C5H8+ (isoprene;NO+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+893,0.611257605776
+894,C5H8+ (isoprene;NO+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+895,0.609279980144
+896,"C5H8+ (isoprene;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+897,0.616340620242
+898,"C5H8+ (isoprene;NO+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+899,0.6987356071
+900,"C5H8+ (isoprene;NO+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+901,0.580425257029
+902,C5H8+ (isoprene;NO+) (ppb)/C8H18+ (octane;O2+) (ppb)
+903,0.634223874497
+904,C5H8+ (isoprene;NO+) (ppb)/C10H22+ (decane;O2+) (ppb)
+905,0.57505586565
+906,C5H8+ (isoprene;NO+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+907,0.656582618605
+908,C5H8+ (isoprene;NO+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+909,0.664388753465
+910,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/NO+.C4H8O (butanone;NO+) (ppb)
+911,0.854128534184
+912,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C6H6+ (benzene;NO+) (ppb)
+913,0.716722283424
+914,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)
+915,0.864193523281
+916,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+917,0.746244736249
+918,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+919,0.724567987662
+920,"C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+921,0.816060765231
+922,"C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+923,0.23742387162
+924,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C8H17+ (octane;NO+) (ppb)
+925,0.849739291523
+926,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C10H21+ (decane;NO+) (ppb)
+927,0.838178369924
+928,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+929,0.724676202395
+930,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+931,0.901769256585
+932,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+933,0.638026080182
+934,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+935,0.7638566808
+936,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+937,0.861125418342
+938,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+939,0.848715383584
+940,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+941,0.767784999801
+942,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+943,0.844362200892
+944,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+945,0.84881193219
+946,"C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+947,0.766617612217
+948,"C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+949,0.952772242517
+950,"C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+951,0.709119553939
+952,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C8H18+ (octane;O2+) (ppb)
+953,0.890259829514
+954,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C10H22+ (decane;O2+) (ppb)
+955,0.693888382414
+956,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+957,0.75215355074
+958,C4H6O.NO+ (3-buten-2-one;NO+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+959,0.896712940236
+960,NO+.C4H8O (butanone;NO+) (ppb)/C6H6+ (benzene;NO+) (ppb)
+961,0.644192946805
+962,NO+.C4H8O (butanone;NO+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)
+963,0.797234018615
+964,NO+.C4H8O (butanone;NO+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+965,0.703270617333
+966,NO+.C4H8O (butanone;NO+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+967,0.669680526522
+968,"NO+.C4H8O (butanone;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+969,0.76107492019
+970,"NO+.C4H8O (butanone;NO+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+971,0.214652168711
+972,NO+.C4H8O (butanone;NO+) (ppb)/C8H17+ (octane;NO+) (ppb)
+973,0.801058606808
+974,NO+.C4H8O (butanone;NO+) (ppb)/C10H21+ (decane;NO+) (ppb)
+975,0.788793706273
+976,NO+.C4H8O (butanone;NO+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+977,0.659564980896
+978,NO+.C4H8O (butanone;NO+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+979,0.84840019128
+980,NO+.C4H8O (butanone;NO+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+981,0.6103678261
+982,NO+.C4H8O (butanone;NO+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+983,0.716510564406
+984,NO+.C4H8O (butanone;NO+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+985,0.802479762511
+986,NO+.C4H8O (butanone;NO+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+987,0.788956426493
+988,NO+.C4H8O (butanone;NO+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+989,0.712829157373
+990,NO+.C4H8O (butanone;NO+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+991,0.787297369834
+992,NO+.C4H8O (butanone;NO+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+993,0.793157634077
+994,"NO+.C4H8O (butanone;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+995,0.72631293798
+996,"NO+.C4H8O (butanone;NO+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+997,0.879669341922
+998,"NO+.C4H8O (butanone;NO+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+999,0.678594371186
+1000,NO+.C4H8O (butanone;NO+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1001,0.811270432982
+1002,NO+.C4H8O (butanone;NO+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1003,0.658131694458
+1004,NO+.C4H8O (butanone;NO+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1005,0.690464648609
+1006,NO+.C4H8O (butanone;NO+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1007,0.825561468456
+1008,C6H6+ (benzene;NO+) (ppb)/NO.C6H6+ (benzene;NO+) (ppb)
+1009,0.657676258012
+1010,C6H6+ (benzene;NO+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+1011,0.583884105313
+1012,C6H6+ (benzene;NO+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+1013,0.564272614431
+1014,"C6H6+ (benzene;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+1015,0.619887147699
+1016,"C6H6+ (benzene;NO+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+1017,0.189662901635
+1018,C6H6+ (benzene;NO+) (ppb)/C8H17+ (octane;NO+) (ppb)
+1019,0.654997502159
+1020,C6H6+ (benzene;NO+) (ppb)/C10H21+ (decane;NO+) (ppb)
+1021,0.649848024194
+1022,C6H6+ (benzene;NO+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+1023,0.523558837767
+1024,C6H6+ (benzene;NO+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+1025,0.705370760603
+1026,C6H6+ (benzene;NO+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+1027,0.494514084759
+1028,C6H6+ (benzene;NO+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+1029,0.613270567994
+1030,C6H6+ (benzene;NO+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+1031,0.685700591558
+1032,C6H6+ (benzene;NO+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+1033,0.665609397191
+1034,C6H6+ (benzene;NO+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+1035,0.602127621772
+1036,C6H6+ (benzene;NO+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+1037,0.670171940515
+1038,C6H6+ (benzene;NO+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+1039,0.658426142499
+1040,"C6H6+ (benzene;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1041,0.595438948637
+1042,"C6H6+ (benzene;NO+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1043,0.738478765392
+1044,"C6H6+ (benzene;NO+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1045,0.588571738569
+1046,C6H6+ (benzene;NO+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1047,0.678545041516
+1048,C6H6+ (benzene;NO+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1049,0.547592765462
+1050,C6H6+ (benzene;NO+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1051,0.560964526331
+1052,C6H6+ (benzene;NO+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1053,0.682303011927
+1054,NO.C6H6+ (benzene;NO+) (ppb)/C7H8+ (toluene;NO+) (ppb)
+1055,0.723356475864
+1056,NO.C6H6+ (benzene;NO+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+1057,0.689312909389
+1058,"NO.C6H6+ (benzene;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+1059,0.769283137103
+1060,"NO.C6H6+ (benzene;NO+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+1061,0.221449592483
+1062,NO.C6H6+ (benzene;NO+) (ppb)/C8H17+ (octane;NO+) (ppb)
+1063,0.796462398461
+1064,NO.C6H6+ (benzene;NO+) (ppb)/C10H21+ (decane;NO+) (ppb)
+1065,0.779767712529
+1066,NO.C6H6+ (benzene;NO+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+1067,0.627597870765
+1068,NO.C6H6+ (benzene;NO+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+1069,0.849245965998
+1070,NO.C6H6+ (benzene;NO+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+1071,0.596945831967
+1072,NO.C6H6+ (benzene;NO+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+1073,0.725091632545
+1074,NO.C6H6+ (benzene;NO+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+1075,0.810628630535
+1076,NO.C6H6+ (benzene;NO+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+1077,0.792387541456
+1078,NO.C6H6+ (benzene;NO+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+1079,0.723129702058
+1080,NO.C6H6+ (benzene;NO+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+1081,0.793069431363
+1082,NO.C6H6+ (benzene;NO+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+1083,0.801158252135
+1084,"NO.C6H6+ (benzene;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1085,0.718462615833
+1086,"NO.C6H6+ (benzene;NO+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1087,0.887987108911
+1088,"NO.C6H6+ (benzene;NO+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1089,0.657864804486
+1090,NO.C6H6+ (benzene;NO+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1091,0.823801306068
+1092,NO.C6H6+ (benzene;NO+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1093,0.64138941296
+1094,NO.C6H6+ (benzene;NO+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1095,0.662535738083
+1096,NO.C6H6+ (benzene;NO+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1097,0.822808602485
+1098,C7H8+ (toluene;NO+) (ppb)/C8H10+ (m-xylene;NO+) (ppb)
+1099,0.6707120882
+1100,"C7H8+ (toluene;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+1101,0.682633488753
+1102,"C7H8+ (toluene;NO+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+1103,0.195413692261
+1104,C7H8+ (toluene;NO+) (ppb)/C8H17+ (octane;NO+) (ppb)
+1105,0.69560290036
+1106,C7H8+ (toluene;NO+) (ppb)/C10H21+ (decane;NO+) (ppb)
+1107,0.66732623808
+1108,C7H8+ (toluene;NO+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+1109,0.458804789955
+1110,C7H8+ (toluene;NO+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+1111,0.737065057671
+1112,C7H8+ (toluene;NO+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+1113,0.508021487411
+1114,C7H8+ (toluene;NO+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+1115,0.621474729372
+1116,C7H8+ (toluene;NO+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+1117,0.710147267029
+1118,C7H8+ (toluene;NO+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+1119,0.70199617442
+1120,C7H8+ (toluene;NO+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+1121,0.690466189163
+1122,C7H8+ (toluene;NO+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+1123,0.695895637934
+1124,C7H8+ (toluene;NO+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+1125,0.728749343898
+1126,"C7H8+ (toluene;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1127,0.63254094578
+1128,"C7H8+ (toluene;NO+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1129,0.785334539909
+1130,"C7H8+ (toluene;NO+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1131,0.582355584717
+1132,C7H8+ (toluene;NO+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1133,0.731915146405
+1134,C7H8+ (toluene;NO+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1135,0.561681084424
+1136,C7H8+ (toluene;NO+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1137,0.492705055758
+1138,C7H8+ (toluene;NO+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1139,0.695434616809
+1140,"C8H10+ (m-xylene;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)"
+1141,0.663806869689
+1142,"C8H10+ (m-xylene;NO+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+1143,0.194782484922
+1144,C8H10+ (m-xylene;NO+) (ppb)/C8H17+ (octane;NO+) (ppb)
+1145,0.674404172476
+1146,C8H10+ (m-xylene;NO+) (ppb)/C10H21+ (decane;NO+) (ppb)
+1147,0.622108500123
+1148,C8H10+ (m-xylene;NO+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+1149,0.424129442308
+1150,C8H10+ (m-xylene;NO+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+1151,0.687251353084
+1152,C8H10+ (m-xylene;NO+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+1153,0.469883089159
+1154,C8H10+ (m-xylene;NO+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+1155,0.575360107541
+1156,C8H10+ (m-xylene;NO+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+1157,0.651772534277
+1158,C8H10+ (m-xylene;NO+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+1159,0.669198154704
+1160,C8H10+ (m-xylene;NO+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+1161,0.690247810745
+1162,C8H10+ (m-xylene;NO+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+1163,0.688169096791
+1164,C8H10+ (m-xylene;NO+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+1165,0.72284575589
+1166,"C8H10+ (m-xylene;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1167,0.60987567896
+1168,"C8H10+ (m-xylene;NO+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1169,0.760861586596
+1170,"C8H10+ (m-xylene;NO+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1171,0.545889787458
+1172,C8H10+ (m-xylene;NO+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1173,0.703153603715
+1174,C8H10+ (m-xylene;NO+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1175,0.539219410837
+1176,C8H10+ (m-xylene;NO+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1177,0.453651284134
+1178,C8H10+ (m-xylene;NO+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1179,0.684833638309
+1180,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C4H6+ (1,3-butadiene;NO+) (ppb)"
+1181,0.163869805131
+1182,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C8H17+ (octane;NO+) (ppb)"
+1183,0.801331928942
+1184,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C10H21+ (decane;NO+) (ppb)"
+1185,0.797768206347
+1186,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)"
+1187,0.646846516471
+1188,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C3H6O+ (acetone;O2+) (ppb)"
+1189,0.834548077359
+1190,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C5H7+ (isoprene;O2+) (ppb)"
+1191,0.588696910707
+1192,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C5H8+ (isoprene;O2+) (ppb)"
+1193,0.698596451672
+1194,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C4H8O+ (butanone;O2+) (ppb)"
+1195,0.78662745478
+1196,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C6H6+ (benzene;O2+) (ppb)"
+1197,0.759463426162
+1198,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C7H8+ (toluene;O2+) (ppb)"
+1199,0.69553258241
+1200,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)"
+1201,0.762613703969
+1202,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)"
+1203,0.78482236604
+1204,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1205,0.72882476596
+1206,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1207,0.857841146355
+1208,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1209,0.658240522985
+1210,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C8H18+ (octane;O2+) (ppb)"
+1211,0.789289347908
+1212,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C10H22+ (decane;O2+) (ppb)"
+1213,0.649087074147
+1214,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)"
+1215,0.679499407114
+1216,"C9H12+ (1,2,4-trimethylbenzene;NO+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)"
+1217,0.79524376519
+1218,"C4H6+ (1,3-butadiene;NO+) (ppb)/C8H17+ (octane;NO+) (ppb)"
+1219,0.193953211273
+1220,"C4H6+ (1,3-butadiene;NO+) (ppb)/C10H21+ (decane;NO+) (ppb)"
+1221,0.166167678139
+1222,"C4H6+ (1,3-butadiene;NO+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)"
+1223,0.147424428242
+1224,"C4H6+ (1,3-butadiene;NO+) (ppb)/C3H6O+ (acetone;O2+) (ppb)"
+1225,0.218652677916
+1226,"C4H6+ (1,3-butadiene;NO+) (ppb)/C5H7+ (isoprene;O2+) (ppb)"
+1227,0.132080205104
+1228,"C4H6+ (1,3-butadiene;NO+) (ppb)/C5H8+ (isoprene;O2+) (ppb)"
+1229,0.202437526289
+1230,"C4H6+ (1,3-butadiene;NO+) (ppb)/C4H8O+ (butanone;O2+) (ppb)"
+1231,0.227067349373
+1232,"C4H6+ (1,3-butadiene;NO+) (ppb)/C6H6+ (benzene;O2+) (ppb)"
+1233,0.20731544595
+1234,"C4H6+ (1,3-butadiene;NO+) (ppb)/C7H8+ (toluene;O2+) (ppb)"
+1235,0.189133233624
+1236,"C4H6+ (1,3-butadiene;NO+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)"
+1237,0.201685483893
+1238,"C4H6+ (1,3-butadiene;NO+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)"
+1239,0.207063157113
+1240,"C4H6+ (1,3-butadiene;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1241,0.159681866127
+1242,"C4H6+ (1,3-butadiene;NO+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1243,0.23124922825
+1244,"C4H6+ (1,3-butadiene;NO+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1245,0.158382131059
+1246,"C4H6+ (1,3-butadiene;NO+) (ppb)/C8H18+ (octane;O2+) (ppb)"
+1247,0.21975504004
+1248,"C4H6+ (1,3-butadiene;NO+) (ppb)/C10H22+ (decane;O2+) (ppb)"
+1249,0.131328392896
+1250,"C4H6+ (1,3-butadiene;NO+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)"
+1251,0.150664181805
+1252,"C4H6+ (1,3-butadiene;NO+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)"
+1253,0.223208742266
+1254,C8H17+ (octane;NO+) (ppb)/C10H21+ (decane;NO+) (ppb)
+1255,0.854387003327
+1256,C8H17+ (octane;NO+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+1257,0.673166072777
+1258,C8H17+ (octane;NO+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+1259,0.881128885149
+1260,C8H17+ (octane;NO+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+1261,0.632644574246
+1262,C8H17+ (octane;NO+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+1263,0.748260843403
+1264,C8H17+ (octane;NO+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+1265,0.818823536465
+1266,C8H17+ (octane;NO+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+1267,0.808158155022
+1268,C8H17+ (octane;NO+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+1269,0.708031160157
+1270,C8H17+ (octane;NO+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+1271,0.807965862218
+1272,C8H17+ (octane;NO+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+1273,0.812266117647
+1274,"C8H17+ (octane;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1275,0.767411976227
+1276,"C8H17+ (octane;NO+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1277,0.893345066933
+1278,"C8H17+ (octane;NO+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1279,0.698076118348
+1280,C8H17+ (octane;NO+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1281,0.8149895934
+1282,C8H17+ (octane;NO+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1283,0.694591118788
+1284,C8H17+ (octane;NO+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1285,0.715524842385
+1286,C8H17+ (octane;NO+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1287,0.831600165552
+1288,C10H21+ (decane;NO+) (ppb)/C2H5O+ (ethanol;NO+) (ppb)
+1289,0.751644041149
+1290,C10H21+ (decane;NO+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+1291,0.899207723943
+1292,C10H21+ (decane;NO+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+1293,0.678938596688
+1294,C10H21+ (decane;NO+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+1295,0.759944721005
+1296,C10H21+ (decane;NO+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+1297,0.812785135594
+1298,C10H21+ (decane;NO+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+1299,0.804476505037
+1300,C10H21+ (decane;NO+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+1301,0.671142148438
+1302,C10H21+ (decane;NO+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+1303,0.78407626232
+1304,C10H21+ (decane;NO+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+1305,0.79324923555
+1306,"C10H21+ (decane;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1307,0.781992173898
+1308,"C10H21+ (decane;NO+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1309,0.885655841217
+1310,"C10H21+ (decane;NO+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1311,0.706900568022
+1312,C10H21+ (decane;NO+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1313,0.817739899574
+1314,C10H21+ (decane;NO+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1315,0.720482794793
+1316,C10H21+ (decane;NO+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1317,0.793915570156
+1318,C10H21+ (decane;NO+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1319,0.833978250997
+1320,C2H5O+ (ethanol;NO+) (ppb)/C3H6O+ (acetone;O2+) (ppb)
+1321,0.74069435427
+1322,C2H5O+ (ethanol;NO+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+1323,0.57204626137
+1324,C2H5O+ (ethanol;NO+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+1325,0.611481377127
+1326,C2H5O+ (ethanol;NO+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+1327,0.653475738226
+1328,C2H5O+ (ethanol;NO+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+1329,0.629569429114
+1330,C2H5O+ (ethanol;NO+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+1331,0.487827460452
+1332,C2H5O+ (ethanol;NO+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+1333,0.620364313903
+1334,C2H5O+ (ethanol;NO+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+1335,0.601927844436
+1336,"C2H5O+ (ethanol;NO+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1337,0.62817565849
+1338,"C2H5O+ (ethanol;NO+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1339,0.740891804928
+1340,"C2H5O+ (ethanol;NO+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1341,0.576093232719
+1342,C2H5O+ (ethanol;NO+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1343,0.690873176157
+1344,C2H5O+ (ethanol;NO+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1345,0.60602917021
+1346,C2H5O+ (ethanol;NO+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1347,0.985446597774
+1348,C2H5O+ (ethanol;NO+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1349,0.80257609548
+1350,C3H6O+ (acetone;O2+) (ppb)/C5H7+ (isoprene;O2+) (ppb)
+1351,0.693596704035
+1352,C3H6O+ (acetone;O2+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+1353,0.804693975519
+1354,C3H6O+ (acetone;O2+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+1355,0.881851594951
+1356,C3H6O+ (acetone;O2+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+1357,0.861242739907
+1358,C3H6O+ (acetone;O2+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+1359,0.740294902853
+1360,C3H6O+ (acetone;O2+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+1361,0.846899722318
+1362,C3H6O+ (acetone;O2+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+1363,0.848111535798
+1364,"C3H6O+ (acetone;O2+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1365,0.800805688467
+1366,"C3H6O+ (acetone;O2+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1367,0.946845259441
+1368,"C3H6O+ (acetone;O2+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1369,0.736755332228
+1370,C3H6O+ (acetone;O2+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1371,0.864556060964
+1372,C3H6O+ (acetone;O2+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1373,0.735008695685
+1374,C3H6O+ (acetone;O2+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1375,0.782394252816
+1376,C3H6O+ (acetone;O2+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1377,0.886624531334
+1378,C5H7+ (isoprene;O2+) (ppb)/C5H8+ (isoprene;O2+) (ppb)
+1379,0.587735706188
+1380,C5H7+ (isoprene;O2+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+1381,0.633792631896
+1382,C5H7+ (isoprene;O2+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+1383,0.616566653448
+1384,C5H7+ (isoprene;O2+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+1385,0.510864246246
+1386,C5H7+ (isoprene;O2+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+1387,0.590691314788
+1388,C5H7+ (isoprene;O2+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+1389,0.601018192201
+1390,"C5H7+ (isoprene;O2+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1391,0.581745926935
+1392,"C5H7+ (isoprene;O2+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1393,0.673793347165
+1394,"C5H7+ (isoprene;O2+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1395,0.536400072897
+1396,C5H7+ (isoprene;O2+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1397,0.607384373845
+1398,C5H7+ (isoprene;O2+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1399,0.556638032885
+1400,C5H7+ (isoprene;O2+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1401,0.601565856704
+1402,C5H7+ (isoprene;O2+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1403,0.642349063598
+1404,C5H8+ (isoprene;O2+) (ppb)/C4H8O+ (butanone;O2+) (ppb)
+1405,0.759667905684
+1406,C5H8+ (isoprene;O2+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+1407,0.727944028295
+1408,C5H8+ (isoprene;O2+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+1409,0.627259108548
+1410,C5H8+ (isoprene;O2+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+1411,0.720827854504
+1412,C5H8+ (isoprene;O2+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+1413,0.713298313193
+1414,"C5H8+ (isoprene;O2+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1415,0.683392625476
+1416,"C5H8+ (isoprene;O2+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1417,0.796643505586
+1418,"C5H8+ (isoprene;O2+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1419,0.634818012618
+1420,C5H8+ (isoprene;O2+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1421,0.725120921032
+1422,C5H8+ (isoprene;O2+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1423,0.614015184411
+1424,C5H8+ (isoprene;O2+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1425,0.651781278977
+1426,C5H8+ (isoprene;O2+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1427,0.743482791019
+1428,C4H8O+ (butanone;O2+) (ppb)/C6H6+ (benzene;O2+) (ppb)
+1429,0.829331506721
+1430,C4H8O+ (butanone;O2+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+1431,0.71645598695
+1432,C4H8O+ (butanone;O2+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+1433,0.812088686296
+1434,C4H8O+ (butanone;O2+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+1435,0.800548909069
+1436,"C4H8O+ (butanone;O2+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1437,0.72812345326
+1438,"C4H8O+ (butanone;O2+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1439,0.895863091528
+1440,"C4H8O+ (butanone;O2+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1441,0.699786783485
+1442,C4H8O+ (butanone;O2+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1443,0.821553061755
+1444,C4H8O+ (butanone;O2+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1445,0.671108612886
+1446,C4H8O+ (butanone;O2+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1447,0.695140106917
+1448,C4H8O+ (butanone;O2+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1449,0.832817650249
+1450,C6H6+ (benzene;O2+) (ppb)/C7H8+ (toluene;O2+) (ppb)
+1451,0.71740680387
+1452,C6H6+ (benzene;O2+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+1453,0.794360730546
+1454,C6H6+ (benzene;O2+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+1455,0.802593471674
+1456,"C6H6+ (benzene;O2+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1457,0.739548241229
+1458,"C6H6+ (benzene;O2+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1459,0.887347970903
+1460,"C6H6+ (benzene;O2+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1461,0.680648655614
+1462,C6H6+ (benzene;O2+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1463,0.811191703981
+1464,C6H6+ (benzene;O2+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1465,0.644796724259
+1466,C6H6+ (benzene;O2+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1467,0.669531299028
+1468,C6H6+ (benzene;O2+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1469,0.809663331923
+1470,C7H8+ (toluene;O2+) (ppb)/C7H7+ (m-xylene;O2+) (ppb)
+1471,0.719415521979
+1472,C7H8+ (toluene;O2+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+1473,0.734694824854
+1474,"C7H8+ (toluene;O2+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1475,0.641253236587
+1476,"C7H8+ (toluene;O2+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1477,0.798179671704
+1478,"C7H8+ (toluene;O2+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1479,0.598832880181
+1480,C7H8+ (toluene;O2+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1481,0.74772164598
+1482,C7H8+ (toluene;O2+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1483,0.560450190699
+1484,C7H8+ (toluene;O2+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1485,0.519949777746
+1486,C7H8+ (toluene;O2+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1487,0.721206065655
+1488,C7H7+ (m-xylene;O2+) (ppb)/C8H10+ (m-xylene;O2+) (ppb)
+1489,0.796658178234
+1490,"C7H7+ (m-xylene;O2+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1491,0.72663671499
+1492,"C7H7+ (m-xylene;O2+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1493,0.878651105979
+1494,"C7H7+ (m-xylene;O2+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1495,0.672015431781
+1496,C7H7+ (m-xylene;O2+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1497,0.805177939521
+1498,C7H7+ (m-xylene;O2+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1499,0.659030081175
+1500,C7H7+ (m-xylene;O2+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1501,0.658328848553
+1502,C7H7+ (m-xylene;O2+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1503,0.814638844892
+1504,"C8H10+ (m-xylene;O2+) (ppb)/C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)"
+1505,0.728343848032
+1506,"C8H10+ (m-xylene;O2+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1507,0.888912780406
+1508,"C8H10+ (m-xylene;O2+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1509,0.671411624449
+1510,C8H10+ (m-xylene;O2+) (ppb)/C8H18+ (octane;O2+) (ppb)
+1511,0.822716435213
+1512,C8H10+ (m-xylene;O2+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1513,0.659740411673
+1514,C8H10+ (m-xylene;O2+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1515,0.639665918234
+1516,C8H10+ (m-xylene;O2+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1517,0.809976511853
+1518,"C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)/C3H3+ (1,3-butadiene;O2+) (ppb)"
+1519,0.81110543421
+1520,"C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1521,0.634761838468
+1522,"C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)/C8H18+ (octane;O2+) (ppb)"
+1523,0.732370091768
+1524,"C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)/C10H22+ (decane;O2+) (ppb)"
+1525,0.631105594895
+1526,"C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)"
+1527,0.668258491997
+1528,"C9H12+ (1,2,4-trimethylbenzene;O2+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)"
+1529,0.757062059127
+1530,"C3H3+ (1,3-butadiene;O2+) (ppb)/C4H6+ (1,3-butadiene;O2+) (ppb)"
+1531,0.742433655789
+1532,"C3H3+ (1,3-butadiene;O2+) (ppb)/C8H18+ (octane;O2+) (ppb)"
+1533,0.914720715463
+1534,"C3H3+ (1,3-butadiene;O2+) (ppb)/C10H22+ (decane;O2+) (ppb)"
+1535,0.730160490954
+1536,"C3H3+ (1,3-butadiene;O2+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)"
+1537,0.774296833895
+1538,"C3H3+ (1,3-butadiene;O2+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)"
+1539,0.922486364318
+1540,"C4H6+ (1,3-butadiene;O2+) (ppb)/C8H18+ (octane;O2+) (ppb)"
+1541,0.66651099277
+1542,"C4H6+ (1,3-butadiene;O2+) (ppb)/C10H22+ (decane;O2+) (ppb)"
+1543,0.559054205931
+1544,"C4H6+ (1,3-butadiene;O2+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)"
+1545,0.613721465761
+1546,"C4H6+ (1,3-butadiene;O2+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)"
+1547,0.690105969893
+1548,C8H18+ (octane;O2+) (ppb)/C10H22+ (decane;O2+) (ppb)
+1549,0.672119580384
+1550,C8H18+ (octane;O2+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1551,0.718405196687
+1552,C8H18+ (octane;O2+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1553,0.859062088891
+1554,C10H22+ (decane;O2+) (ppb)/C2H5O+ (ethanol;O2+) (ppb)
+1555,0.635605063459
+1556,C10H22+ (decane;O2+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1557,0.690615775222
+1558,C2H5O+ (ethanol;O2+) (ppb)/C2H6O+ (ethanol;O2+) (ppb)
+1559,0.824790313086
