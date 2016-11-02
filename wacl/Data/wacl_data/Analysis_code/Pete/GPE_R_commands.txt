@@ -1,9 +1,0 @@
-R
-> load('gridfile')
-> load('testgridfile')
-> formula <- y ~ poly(X1,1,raw=TRUE)+poly(X2,1,raw=TRUE)+poly(X3,1,raw=TRUE)+poly(X4,1,raw=TRUE)+poly(X7,1,raw=TRUE)
-> model <- km(formula=formula , design=data.frame(X1= grid[,1], X2= grid[,2],X3=grid[,3],X4=grid[,4],X7=grid[,7]), response=data.frame(y=grid[,5]), covtype="gauss", nugget.estim=TRUE)
-> pred.grid <- predict.km(object=model, newdata=data.frame(X1= testgrid[,1], X2= testgrid[,2],X3=testgrid[,3],X4=testgrid[,4],X7=testgrid[,7]), type="UK")
-> t=seq(1:dim(testgrid)[1]-1)
-> plot(t,testgrid[,5],type = "l",ylim=c(0.8,1.3))
-> lines(t, pred.grid$mean,col="blue")
