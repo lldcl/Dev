@@ -76,12 +76,12 @@ for i in MOS:
     corrcoef_data.append(np.corrcoef(data_concat[i], data_concat['O3_ave2'])[0][1])
 df['MOSx/O3_ave2'] = corrcoef_data
 
-print('MOS/HIH1_Av')
+print('MOS/rh')
 corrcoef_data = []
 for i in MOS: 
-    print(np.corrcoef(data_concat[i],data_concat['HIH1_Av'])[0][1])
-    corrcoef_data.append(np.corrcoef(data_concat[i], data_concat['HIH1_Av'])[0][1])
-df['MOSx/HIH1_Av'] = corrcoef_data
+    print(np.corrcoef(data_concat[i],data_concat['rh'])[0][1])
+    corrcoef_data.append(np.corrcoef(data_concat[i], data_concat['rh'])[0][1])
+df['MOSx/rh'] = corrcoef_data
 
 print('MOS/LM65T1_Av')
 corrcoef_data = []
@@ -148,12 +148,12 @@ for i in MOSc:
     corrcoef_data.append(np.corrcoef(data_concat[i], data_concat['O3_ave2'])[0][1])
 df['MOScx/O3_ave2'] = corrcoef_data
 
-print('MOSc/HIH1_Av')
+print('MOSc/rh')
 corrcoef_data = []
 for i in MOSc: 
-    print(np.corrcoef(data_concat[i],data_concat['HIH1_Av'])[0][1])
-    corrcoef_data.append(np.corrcoef(data_concat[i], data_concat['HIH1_Av'])[0][1])
-df['MOScx/HIH1_Av'] = corrcoef_data
+    print(np.corrcoef(data_concat[i],data_concat['rh'])[0][1])
+    corrcoef_data.append(np.corrcoef(data_concat[i], data_concat['rh'])[0][1])
+df['MOScx/rh'] = corrcoef_data
 
 print('MOSc/LM65T1_Av')
 corrcoef_data = []
@@ -220,12 +220,12 @@ for i in MOSb:
     corrcoef_data.append(np.corrcoef(data_concat[i], data_concat['O3_ave2'])[0][1])
 df['MOSbx/O3_ave2'] = corrcoef_data
 
-print('MOSb/HIH1_Av')
+print('MOSb/rh')
 corrcoef_data = []
 for i in MOSb: 
-    print(np.corrcoef(data_concat[i],data_concat['HIH1_Av'])[0][1])
-    corrcoef_data.append(np.corrcoef(data_concat[i], data_concat['HIH1_Av'])[0][1])
-df['MOSbx/HIH1_Av'] = corrcoef_data
+    print(np.corrcoef(data_concat[i],data_concat['rh'])[0][1])
+    corrcoef_data.append(np.corrcoef(data_concat[i], data_concat['rh'])[0][1])
+df['MOSbx/rh'] = corrcoef_data
 
 print('MOSb/LM65T1_Av')
 corrcoef_data = []
@@ -272,11 +272,11 @@ temp1 = matrix(data_concat['MOS1b_Av'][1:]) - matrix(data_concat['MOS1b_Av'][0:-
 temp1 = pd.DataFrame(temp1)
 temp2 = matrix(data_concat['MOS1c_Av'][1:]) - matrix(data_concat['MOS1c_Av'][0:-1])
 temp2 = pd.DataFrame(temp2)
-temp3 = matrix(data_concat['HIH1_Av'][1:]) - matrix(data_concat['HIH1_Av'][0:-1])
+temp3 = matrix(data_concat['rh'][1:]) - matrix(data_concat['rh'][0:-1])
 temp3 = pd.DataFrame(temp3)
 print(np.corrcoef(data_concat['MOS1b_Av'],data_concat['MOS1c_Av']))
 print(np.corrcoef(data_concat['MOS1_Av'][1:],temp3))
-print(np.corrcoef(temp1, data_concat['HIH1_Av'][1:]))
+print(np.corrcoef(temp1, data_concat['rh'][1:]))
 
 data_voc = voc_reader.extract_voc('../Data/', 'Detailed Compound Concentrations', 'Analyte vs Time') 
 data_merge = data_concat.merge(data_voc, how = 'inner', on = ['Time'])
@@ -287,14 +287,14 @@ voc_corr = []
 
 for i in VOC:
     print(i)
-    print(np.corrcoef(data_merge['HIH1_Av'],data_merge[i])[0][1])
+    print(np.corrcoef(data_merge['rh'],data_merge[i])[0][1])
 for i, j, k in zip(MOS, MOSb, MOSc):
     print(i)
-    print(np.corrcoef(data_merge['HIH1_Av'],data_merge[i])[0][1])
+    print(np.corrcoef(data_merge['rh'],data_merge[i])[0][1])
     print(j)
-    print(np.corrcoef(data_merge['HIH1_Av'],data_merge[j])[0][1])
+    print(np.corrcoef(data_merge['rh'],data_merge[j])[0][1])
     print(k)
-    print(np.corrcoef(data_merge['HIH1_Av'],data_merge[k])[0][1])
+    print(np.corrcoef(data_merge['rh'],data_merge[k])[0][1])
 
 for i in VOC:
     print(i + '/MOS1c_Av')
@@ -313,7 +313,8 @@ for i in VOC:
  
 voc_df = pd.DataFrame(voc_corr)
 voc_df.to_csv('voc_corr.csv')
-
+print(np.corrcoef(data_merge['CH5O+ (methanol;H3O+) (ppb)'],data_merge['rh'])[0][1])
+df.to_csv('corre.csv')
 """with open('filename.csv', 'w', newline='') as myfile:
     wr = csv.writer(myfile,, quoting=csv.QUOTE_ALL)
     wr.writerow(voc_corr)

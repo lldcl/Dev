@@ -66,4 +66,8 @@ def readin(path, f_date, cal_file, date_st, date_end):
         # Returns the initial date and time that the file began
         print(data_concat.Time[0])
         print(data_concat.Time[len(data_concat.Time)-1])
+        temp_rh = ((matrix(data_concat['HIH1_Av'])/4.94 - 0.16)/0.0062)/(1.0546-0.00216*100*matrix(data_concat['LM65T1_Av']))
+        temp_rh = temp_rh.transpose()
+        data_concat['rh'] = temp_rh
+        #print(data_concat['rh'])
         return data_concat
