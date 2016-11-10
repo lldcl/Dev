@@ -8,7 +8,7 @@ from pylab import *
 from sklearn import linear_model
 from scipy import stats
 
-def readin(path, f_date, cal_file, date_st, date_end):
+def readin(path, f_date, cal_file, date_st, date_end, Time_avg):
         if 'desktop.ini' in cal_file:
                 cal_file.remove('desktop.ini')
 
@@ -35,7 +35,7 @@ def readin(path, f_date, cal_file, date_st, date_end):
                 offset=T1-T2
                 data.TheTime+=offset
                 # Ten second averaging of the raw data
-                Time_avg = '10S'
+                #Time_avg = '10S'
                 # Make a new copy of the data called mean_resampled 
                 mean_resampled = data.copy(deep=True)
                 mean_resampled.TheTime = pd.to_datetime(mean_resampled.TheTime,unit='L')
@@ -66,6 +66,7 @@ def readin(path, f_date, cal_file, date_st, date_end):
         # Returns the initial date and time that the file began
         print(data_concat.Time[0])
         print(data_concat.Time[len(data_concat.Time)-1])
+        #Converts HIH1_Av voltage to rh
         temp_rh = ((matrix(data_concat['HIH1_Av'])/4.94 - 0.16)/0.0062)/(1.0546-0.00216*100*matrix(data_concat['LM65T1_Av']))
         temp_rh = temp_rh.transpose()
         data_concat['rh'] = temp_rh

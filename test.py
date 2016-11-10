@@ -17,8 +17,9 @@ path = "../Data/wacl_data/Raw_data_files/"
 f_date = '201610'
 cal_file = os.listdir(path + f_date +'/MOS')
 # The name of the MOS file to be analysed
-data_concat = mr.readin(path, f_date, cal_file, 1, 5)
-data_voc = voc_reader.extract_voc('../Data/', 'Detailed Compound Concentrations', 'Analyte vs Time') 
+Time_avg = '300S'
+data_concat = mr.readin(path, f_date, cal_file, 1, 5, Time_avg)
+data_voc = voc_reader.extract_voc('../Data/', 'Detailed Compound Concentrations', 'Analyte vs Time', Time_avg) 
 data_merge = data_concat.merge(data_voc, how = 'inner', on = ['Time'])
 
 sub = 'vocs6'

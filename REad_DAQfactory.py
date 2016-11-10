@@ -21,9 +21,12 @@ from matplotlib.offsetbox import AnchoredText
 # The path to where the raw files are stored
 path = "../Data/wacl_data/Raw_data_files/"
 f_date = '201610'
+Time_avg = '300S'
 cal_file = os.listdir(path + f_date +'/MOS')
 # The name of the MOS file to be analysed
-data_concat = mr.readin(path, f_date, cal_file, 1, 5)
+data_concat = mr.readin(path, f_date, cal_file, 1, 5, Time_avg)
+data_voc = voc_reader.extract_voc('../Data/', 'Detailed Compound Concentrations', 'Analyte vs Time', Time_avg) 
+data_merge = data_concat.merge(data_voc, how = 'inner', on = ['Time'])
 
 # Find all the columns in the file that have these titles, as these are the MOS columns.
 sub = 'MOS'
@@ -32,10 +35,6 @@ MOSfig = plt.figure("MOS data")
 ax1 = MOSfig.add_subplot(111)
 colors = ["black","firebrick", "lightgreen" , "c", "darkblue", "purple","orange","forestgreen", "lightskyblue" , "indigo", "dimgrey", "fuchsia"]
 for n,c in zip(MOS,colors):
-    #temp = matrix(data_concat[n][1:]) - matrix(data_concat[n][0:-1])
-    #temp = pd.DataFrame(temp)
-    #temp = pd.DataFrame.transpose(temp)
-    #ax1.plot(data_concat.Time[1:],temp,color=c,linewidth=3)
     ax1.plot(data_concat.Time,data_concat[n],color=c,linewidth=3)
     #pylab.ylim([-0.09,0.09])
     plt.legend(MOS, bbox_to_anchor=(0., 1.02, 1., .102),ncol=5, loc=2, mode="expand", borderaxespad=0.)
@@ -46,26 +45,6 @@ for n,c in zip(MOS,colors):
     plt.ylabel("MOS (V)", size=20)
     plt.xlabel("Time", size=20)	
 MOSfig.show()
-
-"""# Plot up the differentiated MOS voltages
-MOSfig_diff = plt.figure("MOS_diff data")
-ax1 = MOSfig_diff.add_subplot(111)
-for n,c in zip(MOS,colors):
-    temp = matrix(data_concat[n][1:]) - matrix(data_concat[n][0:-1])
-    temp = pd.DataFrame(temp)
-    temp = pd.DataFrame.transpose(temp)
-    ax1.plot(data_concat.Time[1:],temp,color=c,linewidth=3)
-    #ax1.plot(data_concat.Time,data_concat[n],color=c,linewidth=3)
-    pylab.ylim([-0.09,0.09])
-    plt.legend(MOS, bbox_to_anchor=(0., 1.02, 1., .102),ncol=5, loc=2, mode="expand", borderaxespad=0.)
-    leg = plt.gca().get_legend()
-    ltext  = leg.get_texts()  # all the text.Text instance in the legend
-    plt.setp(ltext, fontsize='large')    # the legend text fontsize
-    plt.ylabel("MOS (V, differentiated)", size=20)
-   # plt.ylabel("MOS (V)", size=20)
-    plt.xlabel("Time", size=20)	
-plt.title(cal_file)	
-plt.show()"""
 
 sub = 'MOSb'
 MOS=[ 'MOS1b_Av','MOS2b_Av','MOS3b_Av','MOS4b_Av','MOS5b_Av','MOS6b_Av','MOS7b_Av','MOS8b_Av']
@@ -132,22 +111,6 @@ plt.title(cal_file)
 NOfig.show()
 
 
-"""sub = 'Humidity'
-MOS=[ 'HIH1_Av']
-Hmdfig = plt.figure("Humidity data")
-ax1 = Hmdfig.add_subplot(111)
-colors = ["black","firebrick", "lightgreen" , "c", "darkblue", "purple","orange","forestgreen", "lightskyblue" , "indigo", "dimgrey", "fuchsia"]
-for n,c in zip(MOS,colors):
-    ax1.plot(data_concat.Time,data_concat[n],color=c,linewidth=3)
-    plt.legend(MOS, bbox_to_anchor=(0., 1.02, 1., .102),ncol=5, loc=2, mode="expand", borderaxespad=0.)
-    leg = plt.gca().get_legend()
-    ltext  = leg.get_texts()  # all the text.Text instance in the legend
-    plt.setp(ltext, fontsize='large')    # the legend text fontsize
-    plt.ylabel("Humidity", size=20)
-    plt.xlabel("Time", size=20)	
-plt.title(cal_file)	
-Hmdfig.show()"""
-
 sub = 'Temperature'
 MOS=[ 'LM65T1_Av']
 Tmpfig = plt.figure("Temperature data")
@@ -165,32 +128,7 @@ plt.title(cal_file)
 Tmpfig.show()
 
 
-"""for v, h in zip(data_concat['SV_Av'], data_concat['HIH1_Av']):
-    temp = v * (0.0062 * h +0.16)
-temp.to_csv('v_out.csv')"""
-
-data_voc = voc_reader.extract_voc('../Data/', 'Detailed Compound Concentrations', 'Analyte vs Time') 
-data_merge = data_concat.merge(data_voc, how = 'inner', on = ['Time'])
 #data_merge.to_csv('test3.csv')
-
-"""sub = 'C3H7O+ (acetone;H3O+)'
-MOS=[ 'C3H6O+ (acetone;O2+) (ppb)','MOS1c_Av']
-VOCfig = plt.figure("C3H7O+ (acetone;H3O+)")
-ax1 = VOCfig.add_subplot(111)
-colors = ["black","firebrick", "lightgreen" , "c", "darkblue", "purple","orange","forestgreen", "lightskyblue" , "indigo", "dimgrey", "fuchsia"]
-for n,c in zip(MOS,colors):
-    if n == 'MOS1c_Av':
-        ax1.plot(data_merge.Time,data_merge[n]*10,color=c,linewidth=3)
-    else:
-        ax1.plot(data_merge.Time,data_merge[n],color=c,linewidth=3)
-    plt.legend(MOS, bbox_to_anchor=(0., 1.02, 1., .102),ncol=5, loc=2, mode="expand", borderaxespad=0.)
-    leg = plt.gca().get_legend()
-    ltext  = leg.get_texts()  # all the text.Text instance in the legend
-    plt.setp(ltext, fontsize='large')    # the legend text fontsize
-    plt.ylabel("C3H7O+ (acetone;H3O+)/MOSc*150", size=20)
-    plt.xlabel("Time", size=20)	
-
-VOCfig.show()"""
 
 sub = 'Humidity'
 MOS=[ 'rh']
@@ -336,6 +274,27 @@ plt.legend(ax, labs, bbox_to_anchor=(0., 1.02, 1., .102),ncol=5, loc=2, mode="ex
 #ltext = leg.get_texts()  # all the text.Text instance in the legend
 #plt.setp(ltext, fontsize='large')    # the legend text fontsize
 ax1.set_ylabel("vocs6", size=20)
+ax2.set_ylabel("MOSc1_Av", size=20)
+plt.xlabel("Time", size=20)	
+VOCs6fig.show()
+
+sub = 'VOC_total'
+VOC = ['CH5O+ (methanol;H3O+) (ppb)',	'CH3CN.H+ (acetonitrile;H3O+) (ppb)',	'C3H7O+ (acetone;H3O+) (ppb)',	'C4H6O.H+ (3-buten-2-one;H3O+) (ppb)',	'C6H6.H+ (benzene;H3O+) (ppb)',	'C8H10.H+ (m-xylene;H3O+) (ppb)',	'C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)',	'H3O+.C8H18 (octane;H3O+) (ppb)',	'C9H20.H3O+ (nonane;H3O+) (ppb)',	'H3O+.C10H22 (decane;H3O+) (ppb)',	'CH3O+ (formaldehyde;H3O+) (ppb)',
+]
+temp = matrix(data_voc["CH5O+ (methanol;H3O+) (ppb)"])
+for i in VOC[1:]:
+        temp = temp + matrix(data_voc[i])
+temp = temp.transpose()
+VOCsfig = plt.figure("VOC_total/MOS1c_AV")
+ax1 = VOCsfig.add_subplot(111)
+ax2 = ax1.twinx()
+colors = ["black","firebrick", "lightgreen" , "c", "darkblue", "purple","orange","forestgreen", "lightskyblue" , "indigo", "dimgrey", "fuchsia"]
+ax = []
+ax = ax2.plot(data_merge.Time,data_merge['MOS1c_Av'],color='black',linewidth=3)       
+ax = ax1.plot(data_merge.Time,temp,color=c,linewidth=3, label = 'VOC_total') + ax
+labs = [l.get_label() for l in ax]
+plt.legend(ax, labs, bbox_to_anchor=(0., 1.02, 1., .102),ncol=5, loc=2, mode="expand", borderaxespad=0.)
+ax1.set_ylabel("vocs_total(H3O+)", size=20)
 ax2.set_ylabel("MOSc1_Av", size=20)
 plt.xlabel("Time", size=20)	
 plt.show()
