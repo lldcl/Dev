@@ -79,19 +79,25 @@ plt.title(cal_file)
 MOScfig.show()
 
 sub = 'CO'
-MOS=[ 'CO_ave1']
+MOS=[ 'MOS1c_Av', 'CO_ave1']
 COfig = plt.figure("CO_ave1 data")
 ax1 = COfig.add_subplot(111)
+ax2 = ax1.twinx()
+ax = []
 colors = ["black","firebrick", "lightgreen" , "c", "darkblue", "purple","orange","forestgreen", "lightskyblue" , "indigo", "dimgrey", "fuchsia"]
 for n,c in zip(MOS,colors):
-    ax1.plot(data_concat.Time,data_concat[n],color=c,linewidth=3)
-    plt.legend(MOS, bbox_to_anchor=(0., 1.02, 1., .102),ncol=5, loc=2, mode="expand", borderaxespad=0.)
-    leg = plt.gca().get_legend()
-    ltext  = leg.get_texts()  # all the text.Text instance in the legend
-    plt.setp(ltext, fontsize='large')    # the legend text fontsize
-    plt.ylabel("CO", size=20)
-    plt.xlabel("Time", size=20)	
-plt.title(cal_file)	
+    if n == 'MOS1c_Av':
+        ax = ax2.plot(data_merge.Time,data_merge[n],color=c,linewidth=3) + ax       
+    else:
+        ax = ax1.plot(data_merge.Time,data_merge[n],color=c,linewidth=3) + ax
+labs = [l.get_label() for l in ax]
+plt.legend(ax, labs, bbox_to_anchor=(0., 1.02, 1., .102),ncol=5, loc=2, mode="expand", borderaxespad=0.)
+#leg = plt.gca().get_legend()
+#ltext = leg.get_texts()  # all the text.Text instance in the legend
+#plt.setp(ltext, fontsize='large')    # the legend text fontsize
+ax1.set_ylabel("CO", size=20)
+ax2.set_ylabel("MOSc1_Av", size=20)
+plt.xlabel("Time", size=20)	
 COfig.show()
 
 sub = 'NO'
@@ -131,21 +137,28 @@ Tmpfig.show()
 #data_merge.to_csv('test3.csv')
 
 sub = 'Humidity'
-MOS=[ 'rh']
+MOS=[ 'MOS1c_Av','rh']
 Hmdfig = plt.figure("Humidity data")
 ax1 = Hmdfig.add_subplot(111)
+ax2 = ax1.twinx()
+ax = []
 colors = ["black","firebrick", "lightgreen" , "c", "darkblue", "purple","orange","forestgreen", "lightskyblue" , "indigo", "dimgrey", "fuchsia"]
 for n,c in zip(MOS,colors):
-    ax1.plot(data_merge.Time,data_merge[n],color=c,linewidth=3)
-    plt.legend(MOS, bbox_to_anchor=(0., 1.02, 1., .102),ncol=5, loc=2, mode="expand", borderaxespad=0.)
-    leg = plt.gca().get_legend()
-    ltext  = leg.get_texts()  # all the text.Text instance in the legend
-    plt.setp(ltext, fontsize='large')    # the legend text fontsize
-    plt.ylabel("Humidity", size=20)
-    plt.xlabel("Time", size=20)	
+    if n == 'MOS1c_Av':
+        ax = ax2.plot(data_merge.Time,data_merge[n],color=c,linewidth=3) + ax       
+    else:
+        ax = ax1.plot(data_merge.Time,data_merge[n],color=c,linewidth=3) + ax
+labs = [l.get_label() for l in ax]
+plt.legend(ax, labs, bbox_to_anchor=(0., 1.02, 1., .102),ncol=5, loc=2, mode="expand", borderaxespad=0.)
+#leg = plt.gca().get_legend()
+#ltext = leg.get_texts()  # all the text.Text instance in the legend
+#plt.setp(ltext, fontsize='large')    # the legend text fontsize
+ax1.set_ylabel("rh", size=20)
+ax2.set_ylabel("MOS1c_Av", size=20)
+plt.xlabel("Time", size=20)
 Hmdfig.show()
 
-sub = 'vocs1'
+"""sub = 'vocs1'
 voc1=[ 'CH5O+ (methanol;H3O+) (ppb)',	'CH3CN.H+ (acetonitrile;H3O+) (ppb)',	'C3H7O+ (acetone;H3O+) (ppb)',	'C4H6O.H+ (3-buten-2-one;H3O+) (ppb)',	'C6H6.H+ (benzene;H3O+) (ppb)',	'C8H10.H+ (m-xylene;H3O+) (ppb)',	'C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)',	'H3O+.C8H18 (octane;H3O+) (ppb)',	'C9H20.H3O+ (nonane;H3O+) (ppb)',	'H3O+.C10H22 (decane;H3O+) (ppb)',	'CH3O+ (formaldehyde;H3O+) (ppb)',	'MOS1c_Av']
 VOCs1fig = plt.figure("voc1")
 ax1 = VOCs1fig.add_subplot(111)
@@ -276,7 +289,7 @@ plt.legend(ax, labs, bbox_to_anchor=(0., 1.02, 1., .102),ncol=5, loc=2, mode="ex
 ax1.set_ylabel("vocs6", size=20)
 ax2.set_ylabel("MOSc1_Av", size=20)
 plt.xlabel("Time", size=20)	
-VOCs6fig.show()
+VOCs6fig.show()"""
 
 sub = 'VOC_total'
 VOC = ['CH5O+ (methanol;H3O+) (ppb)',	'CH3CN.H+ (acetonitrile;H3O+) (ppb)',	'C3H7O+ (acetone;H3O+) (ppb)',	'C4H6O.H+ (3-buten-2-one;H3O+) (ppb)',	'C6H6.H+ (benzene;H3O+) (ppb)',	'C8H10.H+ (m-xylene;H3O+) (ppb)',	'C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)',	'H3O+.C8H18 (octane;H3O+) (ppb)',	'C9H20.H3O+ (nonane;H3O+) (ppb)',	'H3O+.C10H22 (decane;H3O+) (ppb)',	'CH3O+ (formaldehyde;H3O+) (ppb)',
@@ -296,5 +309,68 @@ labs = [l.get_label() for l in ax]
 plt.legend(ax, labs, bbox_to_anchor=(0., 1.02, 1., .102),ncol=5, loc=2, mode="expand", borderaxespad=0.)
 ax1.set_ylabel("vocs_total(H3O+)", size=20)
 ax2.set_ylabel("MOSc1_Av", size=20)
+plt.xlabel("Time", size=20)	
+VOCsfig.show()
+
+sub = 'VOCrh'
+VOC = ['CH5O+ (methanol;H3O+) (ppb)',	'CH3CN.H+ (acetonitrile;H3O+) (ppb)',	'C3H7O+ (acetone;H3O+) (ppb)',	'C4H6O.H+ (3-buten-2-one;H3O+) (ppb)',	'C6H6.H+ (benzene;H3O+) (ppb)',	'C8H10.H+ (m-xylene;H3O+) (ppb)',	'C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)',	'H3O+.C8H18 (octane;H3O+) (ppb)',	'C9H20.H3O+ (nonane;H3O+) (ppb)',	'H3O+.C10H22 (decane;H3O+) (ppb)',	'CH3O+ (formaldehyde;H3O+) (ppb)',
+]
+temp = matrix(data_voc["CH5O+ (methanol;H3O+) (ppb)"])
+for i in VOC[1:]:
+        temp = temp + matrix(data_voc[i])
+temp = temp.transpose()
+VOCrhfig = plt.figure("VOC_total/rh")
+ax1 = VOCrhfig.add_subplot(111)
+ax2 = ax1.twinx()
+colors = ["black","firebrick", "lightgreen" , "c", "darkblue", "purple","orange","forestgreen", "lightskyblue" , "indigo", "dimgrey", "fuchsia"]
+ax = []
+ax = ax2.plot(data_merge.Time,data_merge['rh'],color='black',linewidth=3)       
+ax = ax1.plot(data_merge.Time,temp,color=c,linewidth=3, label = 'VOC_total') + ax
+labs = [l.get_label() for l in ax]
+plt.legend(ax, labs, bbox_to_anchor=(0., 1.02, 1., .102),ncol=5, loc=2, mode="expand", borderaxespad=0.)
+ax1.set_ylabel("vocs_total(H3O+)", size=20)
+ax2.set_ylabel("rh", size=20)
+plt.xlabel("Time", size=20)	
+VOCrhfig.show()
+
+sub = 'VOCrh'
+VOC = ['CH5O+ (methanol;H3O+) (ppb)',	'CH3CN.H+ (acetonitrile;H3O+) (ppb)',	'C3H7O+ (acetone;H3O+) (ppb)',	'C4H6O.H+ (3-buten-2-one;H3O+) (ppb)',	'C6H6.H+ (benzene;H3O+) (ppb)',	'C8H10.H+ (m-xylene;H3O+) (ppb)',	'C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)',	'H3O+.C8H18 (octane;H3O+) (ppb)',	'C9H20.H3O+ (nonane;H3O+) (ppb)',	'H3O+.C10H22 (decane;H3O+) (ppb)',	'CH3O+ (formaldehyde;H3O+) (ppb)',
+]
+temp = matrix(data_voc["CH5O+ (methanol;H3O+) (ppb)"])
+for i in VOC[1:]:
+        temp = temp + matrix(data_voc[i])
+temp = temp.transpose()
+VOCrhfig = plt.figure("VOC_total/co")
+ax1 = VOCrhfig.add_subplot(111)
+ax2 = ax1.twinx()
+colors = ["black","firebrick", "lightgreen" , "c", "darkblue", "purple","orange","forestgreen", "lightskyblue" , "indigo", "dimgrey", "fuchsia"]
+ax = []
+ax = ax2.plot(data_merge.Time,data_merge['rh'],color='black',linewidth=3)       
+ax = ax1.plot(data_merge.Time,temp,color=c,linewidth=3, label = 'VOC_total') + ax
+labs = [l.get_label() for l in ax]
+plt.legend(ax, labs, bbox_to_anchor=(0., 1.02, 1., .102),ncol=5, loc=2, mode="expand", borderaxespad=0.)
+ax1.set_ylabel("vocs_total(H3O+)", size=20)
+ax2.set_ylabel("rh", size=20)
+plt.xlabel("Time", size=20)	
+VOCrhfig.show()
+
+sub = 'VOCco'
+VOC = ['CH5O+ (methanol;H3O+) (ppb)',	'CH3CN.H+ (acetonitrile;H3O+) (ppb)',	'C3H7O+ (acetone;H3O+) (ppb)',	'C4H6O.H+ (3-buten-2-one;H3O+) (ppb)',	'C6H6.H+ (benzene;H3O+) (ppb)',	'C8H10.H+ (m-xylene;H3O+) (ppb)',	'C9H12.H+ (1,2,4-trimethylbenzene;H3O+) (ppb)',	'H3O+.C8H18 (octane;H3O+) (ppb)',	'C9H20.H3O+ (nonane;H3O+) (ppb)',	'H3O+.C10H22 (decane;H3O+) (ppb)',	'CH3O+ (formaldehyde;H3O+) (ppb)',
+]
+temp = matrix(data_voc["CH5O+ (methanol;H3O+) (ppb)"])
+for i in VOC[1:]:
+        temp = temp + matrix(data_voc[i])
+temp = temp.transpose()
+VOCcofig = plt.figure("VOC_total/CO")
+ax1 = VOCcofig.add_subplot(111)
+ax2 = ax1.twinx()
+colors = ["black","firebrick", "lightgreen" , "c", "darkblue", "purple","orange","forestgreen", "lightskyblue" , "indigo", "dimgrey", "fuchsia"]
+ax = []
+ax = ax2.plot(data_merge.Time,data_merge['CO_ave1'],color='black',linewidth=3)       
+ax = ax1.plot(data_merge.Time,temp,color=c,linewidth=3, label = 'VOC_total') + ax
+labs = [l.get_label() for l in ax]
+plt.legend(ax, labs, bbox_to_anchor=(0., 1.02, 1., .102),ncol=5, loc=2, mode="expand", borderaxespad=0.)
+ax1.set_ylabel("vocs_total(H3O+)", size=20)
+ax2.set_ylabel("CO", size=20)
 plt.xlabel("Time", size=20)	
 plt.show()
