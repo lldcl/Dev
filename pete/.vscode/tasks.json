@@ -1,0 +1,11 @@
+{
+	"version": "0.1.0",
+	"command": "C:\\Program Files\\R\\R-3.3.2\b\in\\x64\\rterm.exe",
+	"showOutput": "always",
+	"args": [
+		"--no-restore",
+		"--no-save",
+		"--quiet",
+		"D:\\wacl\\dev\\pete\\GPETest3_earth.R"
+    ]
+}
